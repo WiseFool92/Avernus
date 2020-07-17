@@ -82,7 +82,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### Behavior Driven Development Spec List
 
-#### ProfileShell
+#### Avernus
 
 |                          Behavior                          | Input  | Output  |
 | :--------------------------------------------------------: | :----: | :-----: |
@@ -208,3 +208,41 @@ This project is licensed under the MIT License
 Copyright (c) 2020 **_Nathan Watkins-Hoagland_**
 
 ---
+
+# Avernus - MVP
+
+Avernus is a game world that my cousin and I have been developing for the past 15 years. For my capstone I want to create a website for it, to enable us to get player feedback and progress the storylines / create them. The plan is to use an archetype in which we write a chapter with multiple options for continuation. Then the users cast votes and comments to influence which storyline is fully explored. Rinse and Repeat until the game is full of story and life.
+
+Languages: 
+
+React.js
+CSS & HTML
+
+Libraries / Dependencies:
+
+JQuery & Bootstrap
+Redux
+Antd - CSS Lib?
+
+Database:
+
+Firebase / FireStore
+
+
+Useability:
+
+User Account Creation
+User Login
+Forum Section
+User Data Storage - To hold votes & comment data & store credentials
+Posted Storyline Chapters - with user votes & comments dictating the next chapters direction
+Splash Page
+
+Stretch Goals
+
+Full Game Overview
+Bestiary
+Character Classes
+Character Races
+World Location Data
+Geographical Maps
