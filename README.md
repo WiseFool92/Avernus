@@ -219,7 +219,8 @@ Languages:
 React.js
 CSS & HTML
 
-Now considering learning Golang
+Now considering learning Golang & GopherJS
+
 
 Libraries / Dependencies:
 
