@@ -1,11 +1,11 @@
-<mxfile host="88a50c5f-8c79-4fe5-9b9c-2ea396824349" modified="2020-07-17T22:48:23.647Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.47.1 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="smubCdVy8H8bnvMvOFII" version="13.1.3">
+<mxfile host="88a50c5f-8c79-4fe5-9b9c-2ea396824349" modified="2020-07-17T23:29:06.624Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.47.1 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="isumS_2twg50gWL0wSmc" version="13.1.3">
     <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
-        <mxGraphModel dx="3237" dy="2157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2528" dy="1867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="NavBar" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="-680" y="40" width="13050" height="60" as="geometry"/>
+                <mxCell id="2" value="NavBar (Routes)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-680" y="40" width="16390" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="Homepage (SplashPage)&lt;br&gt;&lt;br&gt;&lt;br&gt;Avernus:&lt;br&gt;&lt;br&gt;(Background Img)&lt;br&gt;&lt;br&gt;Souls of the Dammed" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-680" y="-400" width="680" height="390" as="geometry"/>
@@ -43,11 +43,14 @@
                 <mxCell id="188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="170">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                <mxCell id="216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="4" value="Sentients" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="7320" y="265" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Beastiary" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="11340" y="110" width="120" height="60" as="geometry"/>
+                <mxCell id="5" value="Bestiary" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="14830" y="160" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="31">
                     <mxGeometry relative="1" as="geometry"/>
@@ -74,10 +77,10 @@
                     <mxGeometry x="-680" y="100" width="50" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="Login / Signup" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="12270" y="120" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="15600" y="110" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="Forum" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="12120" y="120" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="15450" y="110" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="Only logged in users can vote on storyline progression, comment on forums &amp;amp; create forum posts" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
                     <mxGeometry x="-827" y="90" width="130" height="130" as="geometry"/>
@@ -86,22 +89,25 @@
                     <mxGeometry x="-822" y="10" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="Tools" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="10850" y="110" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="14460" y="110" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="Pactworthy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="11050" y="180" width="120" height="60" as="geometry"/>
+                <mxCell id="14" value="Pactworthy&lt;br&gt;(You make deals with particular creatures)&lt;br&gt;(Ritualism)&lt;br&gt;(Conjured Creatures)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="8200" y="405" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="189">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="Vocations" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="10660" y="110" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="10600" y="100" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="Flora" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="11530" y="190" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="15020" y="240" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="Fauna" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="11410" y="190" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="14900" y="240" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="Horrors" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="11210" y="180" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="14700" y="230" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="Bog of Bogodola" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="2010" y="725" width="120" height="60" as="geometry"/>
@@ -155,7 +161,7 @@
                     <mxGeometry x="-680" y="-460" width="680" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="49" value="The Machina&lt;br&gt;aka&lt;br&gt;(Magick)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="11970" y="110" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="15300" y="100" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="51" target="90">
                     <mxGeometry relative="1" as="geometry"/>
@@ -414,6 +420,159 @@
                 </mxCell>
                 <mxCell id="181" value="Sentients" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
                     <mxGeometry x="7320" y="100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="189" target="195">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="189" target="194">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="189" target="193">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="189" target="196">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="189" target="192">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="189" value="Vocations" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="10600" y="240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="191" value="Alchemical &lt;br&gt;Hunter" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="11165" y="555" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" value="Common Folk&lt;br&gt;Mastery" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9000" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="193" value="Magicks&lt;br&gt;Mastery" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="11590" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="194" value="Alchemical&amp;nbsp;&lt;br&gt;Mastery" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="11080" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="195" value="Physician&lt;br&gt;Mastery" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="10440" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="196" value="Combat&lt;br&gt;Mastery" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9870" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="203" value="Alchemik" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="10970" y="560" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="204" value="Alchemist" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="10820" y="560" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="205" value="Apothecary" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="11330" y="560" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="206" value="Archmage of Waterheaven" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="11630" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="207" value="Archwiz" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="11760" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="208" value="Beastslayer" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9680" y="470" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="209" value="Blacksmith" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9160" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="210" value="Buccaneer / Pirate" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9860" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="211" value="Miner&lt;br&gt;Salt &amp;amp; Coal &amp;amp; Metal" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9310" y="485" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="213" value="Sellsword" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9804" y="570" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="214" value="Earth-Works" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="8790" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="215" value="Militia&lt;br&gt;Militia Guard&lt;br&gt;Free company militia" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="10010" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="217" value="Frontiersman" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9990" y="580" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="218" value="Gallowglass" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9590" y="585" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="219" value="Grey Wizard" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="11910" y="485" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="220" value="Gunsmith" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="8940" y="495" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="221" value="Halbardier" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9650" y="665" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="222" value="Handgunner" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9830" y="665" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="223" value="Farmer" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="8910" y="600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="224" value="Hedge Wizard" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="12070" y="495" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="225" value="Herbalist" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="10420" y="555" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="226" value="Hermit" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="12210" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="227" value="Highwayman" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9980" y="670" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="228" value="Hunter" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9050" y="590" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="229" value="Inquisitor" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9790" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="230" value="Inspector" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="8710" y="650" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="231" value="Judge" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="8890" y="710" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="232" value="Long Hunter" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9030" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="233" value="Trapper" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9200" y="585" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="235" value="Maester" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="10420" y="645" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="237" value="Minuteman" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9190" y="690" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="238" value="Mob" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="8710" y="740" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="239" value="Night Watchman" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="8890" y="800" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="240" value="Outrider" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9930" y="770" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="241" value="Pikeman" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="10060" y="770" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="242" value="Plague Doctor" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="10560" y="560" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="243" value="Ranger (Strider)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9660" y="755" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="244" value="Scout" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="9790" y="830" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="245" value="Settler" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F0E9E9;fillColor=#2A2A2A;" vertex="1" parent="1">
+                    <mxGeometry x="8630" y="540" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
