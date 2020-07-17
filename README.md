@@ -242,11 +242,11 @@ User Data Storage - To hold votes & comment data & store credentials
 Posted Storyline Chapters - with user votes & comments dictating the next chapters direction
 Splash Page
 
-Stretch Goals
+Stretch Goals - Full Game Overview:
+Bestiary:
+  Flora Fauna fantastical and not
+Peoples:
+  
+Realms:
+  World Location Data & Geographical Maps
 
-Full Game Overview
-Bestiary
-Character Classes
-Character Races
-World Location Data
-Geographical Maps
