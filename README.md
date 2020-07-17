@@ -86,6 +86,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 |                          Behavior                          | Input  | Output  |
 | :--------------------------------------------------------: | :----: | :-----: |
+| Visitors can view the entire page | 'avernus.net' | 'Read Access' |
 | Visitors can view but not create posts | 'Home Page' | 'http://localhost:3000/' |
 | The visitors can create a profile | 'Select Create profile' | 'Create profile window populates' |
 | The users can post in the forums | 'Click create post and populate the form' | 'Posts in forum' |
@@ -217,6 +218,8 @@ Languages:
 
 React.js
 CSS & HTML
+
+Now considering learning Golang
 
 Libraries / Dependencies:
 
