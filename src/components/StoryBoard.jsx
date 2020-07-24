@@ -64,11 +64,26 @@ function StoryBoard(){
           <ul>
             <li>Clothes:</li>
               <p>
-                Armigers Vestment(chitin still suit), Blouse(wool), Breeches(wool), Hand Wraps(leather), Worn Boots(leather), Amulet(Elder Sign)
+                <li>Armigers Vestment(chitin still suit)</li>
+                <li>Blouse(wool)</li>
+                <li>Breeches(wool)</li>
+                <li>Hand Wraps(leather)</li>
+                <li>Worn Boots(leather)</li>
+                <li>Amulet(Elder Sign)</li>
               </p>
             <li>Pack:</li>
               <p>
-                Travel rations(~5 days), Camelback Pouch(suit refills), Non-magnifying Glass(implement), Glass Stiletto(100%), Sewing kit(80%), Lockpicks(45%), 2x Tin vials(phosphorous), Everlight(89%), Rags, 1x Tin(cleaning solvent), Lux et Tenebrae(grimoire)
+                <li>Travel rations(~5 days)</li>
+                <li>Camelback Pouch(suit refills)</li>
+                <li>Non-magnifying Glass(implement)</li>
+                <li>Glass Stiletto(100%)</li>
+                <li>Sewing kit(80%)</li>
+                <li>Lockpicks(45%)</li>
+                <li>2x Tin vials(phosphorous)</li>
+                <li>Everlight(89%)</li>
+                <li>Rags</li>
+                <li>1x Tin(cleaning solvent)</li>
+                <li>Lux et Tenebrae(grimoire)</li>
               </p>
             <li>Yatagan</li>
               <p>
