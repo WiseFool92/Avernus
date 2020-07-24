@@ -171,6 +171,6 @@ function StoryBoard(){
       </div>
     </>
   )
-}
+};
 
 export default StoryBoard;
