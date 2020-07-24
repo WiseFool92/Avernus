@@ -57,6 +57,7 @@ function StoryBoard(){
 
           Passing through it, the rest of the town looked little better. Crooked and bare buildings were patched right into the sides of massive basalt towers that rose high above sad wooden walls. Most of the pilgrims from the caravan trudged on towards the Atrium Carceri, where he knew their pilgrimage would end. Ibram gave a terse wave to the two Armigers, Etil and Mox, as he broke away from the procession. Here, along what passed for a main avenue, a few savvy peddlers hawking goods did little to hide the hostility of the locals. Nearly every face Ibram turned to was masked under the umbrage of suspicion. A dreary place to work perhaps, but there was certainly work to do...
         </p>
+        <h2>Where will the story go from here? You decide!</h2>
         <h3>Options</h3>
         <ul>
           <li>Meet Contact</li>
