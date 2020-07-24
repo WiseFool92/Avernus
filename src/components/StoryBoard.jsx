@@ -6,11 +6,29 @@ function StoryBoard(){
     <>
       <div className='storyboard'>
         <h1>The Story So Far</h1>
-        <h2>Prologue: The Road to Carcosa</h2>
+        <h2>The Road to Carcosa</h2>
         <h3>Bios</h3>
         <h4>Ibram Messer</h4>
-        <p></p>
-        
+        <p>
+          A gaunt but striking figure, Messer is a prototypical example of a Yeoman of the Japing Armigers.
+        </p>
+        <h4>Melbourne</h4>
+        <p>
+          ...
+        </p>
+        <h4>Amis</h4>
+        <p>
+          ...
+        </p>
+        <h4>Etil & Mox</h4>
+        <p>
+          You do not know them well, and they certainly don't seem to want to know you. Assigned to watch the Pilgrims Path, the two yeomen were cold and quiet companions on the road.
+        </p>
+        <h4>Zur the Shaper</h4>
+        <p>
+          Your contact in Carcosa, Zur is the definition of eccentric. A mendicant and arcanist with the College of Dunwich, he is investigating odd reports from the foggy coastal colony. [He lives under a tent in the Rookery, a Dagonite slum.]
+        </p>
+        <h2>Prologue:</h2>
         <p>
           "The most merciful thing in the world, I think, is the inability of the human mind to correlate all it's contents. We live on a placid island of ignorance, in the midst of black seas of the infinity. It was never meant that we voyage far."  - H.P. Lovecraft
 
