@@ -7,7 +7,58 @@ function StoryBoard(){
       <div className='storyboard'>
         <h1>The Story So Far</h1>
         <h2>The Road to Carcosa</h2>
-        <h3>Bios</h3>
+        <h3>Places:</h3>
+          <ul>
+            <li>Avernus:</li>
+              <p>An underground tombworld.</p>
+            <li>Eastern Gallery:</li>
+              <p>
+                A large, unnatural cave with the Pendulum hanging at its apex.
+              </p>
+            <li>Pendulum:</li>
+              <p>
+                Soli invicto. Far overhead burns the false sun, cast into the roof of the eastern gallery by the arcanists of the College of Dunwich. A fickle thing, without its light all would be cast into darkness.
+              </p>
+            <li>Pilgrims Path:</li>
+              <p>
+                Walked by Un-Kai, the wise word misplaced.
+              </p>
+            <li>Chitin Road:</li>
+              <p>
+                A high road that spiders outward from New Dunwich across the Kyr, even to the edge of the serpents spine.
+              </p>
+            <li>Sabian Sea:</li>
+              <p>
+                Western border of the Eastern gallery. Beyond lies darkness and the unknown.
+              </p>
+            <li>Northern Fells:</li>
+              <p>
+                The Fells lead up to the great basalt edifice of the north wall.
+              </p>
+            <li>Reiksweald:</li>
+              <p>
+                Wild and savage myconid forest.
+              </p>
+            <li>Carcosa:</li>
+              <p>
+                Built on top of an ancient, antidiluvian ruin. Carcosa is a colony town that sits along the southern bank of the Tanith river where it meets the Sabian Sea.
+              </p>
+              <ul>
+                <li>Main square: market, gibbet, guard house</li>
+                <li>Luckless Mule: Inexpensive Inne, poor food and plentiful drink</li>
+                <li>Atrium Carceri: One of the few towers with an accesible entrance, and the tallest. Used as a library and temple to Un-Kai, the first of the Walking Ones.</li>
+                <li>Port: Crude docks provide shelter to the keelboats of the river Tanith and the brigs of the Sabian Sea.</li>
+                <li>Rookery: Hard to believe Carcosa has a slum. Populated primarily by the Dagonites.</li>
+              </ul> 
+          </ul>
+        <h3>Peoples:</h3>
+        <h4>Japing Armigers:</h4>
+          <p>To spend oneself in a worthy cause.</p>
+        <h4>Kyr:</h4>
+          <p>Citizens of the Kyr Commonwealth.</p>
+        <h4>Dagonites</h4>
+          <p>...</p>
+        <h3>Bios:</h3>
         <h4>Ibram Messer</h4>
         <p>
           A gaunt but striking figure, Messer is a prototypical example of a Yeoman of the Japing Armigers.
