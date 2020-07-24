@@ -4,44 +4,49 @@ import PropTypes from 'prop-types';
 function StoryBoard(){
   return (
     <>
-      <h1>The Story So Far</h1>
-      <h2>The Road to Carcosa</h2>
-      <p>
-        "The most merciful thing in the world, I think, is the inability of the human mind to correlate all it's contents. We live on a placid island of ignorance, in the midst of black seas of the infinity. It was never meant that we voyage far."  - H.P. Lovecraft
+      <div className='storyboard'>
+        <h1>The Story So Far</h1>
+        <h2>Prologue: The Road to Carcosa</h2>
+        <h3>Bios</h3>
+        <h4>Ibram Messer</h4>
+        <p></p>
+        
+        <p>
+          "The most merciful thing in the world, I think, is the inability of the human mind to correlate all it's contents. We live on a placid island of ignorance, in the midst of black seas of the infinity. It was never meant that we voyage far."  - H.P. Lovecraft
 
-        It was a truly bitter wind, as cold and biting as any that Ibram had known. Melbourne once told him the Angouleme called it the Entai Machus, a strange idiom for the nature of fate. Sweeping down from the northern fells, this wind was a plague across the entire eastern gallery. The gusts here crashed into the stream of pilgrims in front of Messer with the relentlessness of the tides. Yet still the mummy wrapped marchers around him trudged, heads bent into wind, towards the dark towers of Carcosa.
+          It was a truly bitter wind, as cold and biting as any that Ibram had known. Melbourne once told him the Angouleme called it the Entai Machus, a strange idiom for the nature of fate. Sweeping down from the northern fells, this wind was a plague across the entire eastern gallery. The gusts here crashed into the stream of pilgrims in front of Messer with the relentlessness of the tides. Yet still the mummy wrapped marchers around him trudged, heads bent into wind, towards the dark towers of Carcosa.
 
-        It was not an inviting city, Carcosa. An antediluvian ruin hidden under the myconic timbers of a careless colony sprawl, this was not a destination favored by many. Only the most devout chose its' dark temple. The oily towers stood out oddly in the pale light of the Pendulum's swing, the spire of the Atrium Carceri peircing sharply into the cavern heights. Gazing across the wastes to this ancient tower Ibram wondered, not for the first, at the popularity of such a place along the Pilgrim's Path. He could tell by the gloom that there would be much work there. Carefully covering his mouth with the thin strip of red cloth clasped to his hood, he bent himself back into the wind. His mind wandered as his feet proceeded apace.
-        Here, in the lonely desert stretch between the Reiksweald to the east and the Sabian Sea to the west, the Pilgrims Path was nothing more than a set of footprints. Far removed from the luxury of stone that detailed the length and breadth of the Chitin Road, every step Ibram took here sank deep into the sand.
+          It was not an inviting city, Carcosa. An antediluvian ruin hidden under the myconic timbers of a careless colony sprawl, this was not a destination favored by many. Only the most devout chose its' dark temple. The oily towers stood out oddly in the pale light of the Pendulum's swing, the spire of the Atrium Carceri peircing sharply into the cavern heights. Gazing across the wastes to this ancient tower Ibram wondered, not for the first, at the popularity of such a place along the Pilgrim's Path. He could tell by the gloom that there would be much work there. Carefully covering his mouth with the thin strip of red cloth clasped to his hood, he bent himself back into the wind. His mind wandered as his feet proceeded apace.
+          Here, in the lonely desert stretch between the Reiksweald to the east and the Sabian Sea to the west, the Pilgrims Path was nothing more than a set of footprints. Far removed from the luxury of stone that detailed the length and breadth of the Chitin Road, every step Ibram took here sank deep into the sand.
 
-        "And to think he dreamed of paradise", Ibram idly mused remembering the endless hope with which Amis had spoken of the coast. "It's as gloomy as everything else in this forsaken cave."
-        A cry rang out ahead and Ibram risked the stinging wind to raise his eyes again. There was movement along the line ahead of him, some clearly panic. It was quickly apparent what had disturbed the stoic procession; far to the east was a small billowing cloud of dust approaching at a remarkable pace among the dunes. Ibram knew instantly that this was danger. The Arrowtongue, an apex predator known by legend. The speed alone was a clue, but at the tip of the cloud he could spot the bright crimson mark of the beasts grotesque head.
-        Ahead he saw the careful movement of a dozen guards and two other Armigers as they warily spread out towards the approaching cloud. Sighing, he moved to join them. He touched the useless blade at his side, its presence a comfort, then unslung the battered carbine from his shoulder. The violence would cost them dearly; this was no place to fight such a thing. "And with the city in sight", he thought.
+          "And to think he dreamed of paradise", Ibram idly mused remembering the endless hope with which Amis had spoken of the coast. "It's as gloomy as everything else in this forsaken cave."
+          A cry rang out ahead and Ibram risked the stinging wind to raise his eyes again. There was movement along the line ahead of him, some clearly panic. It was quickly apparent what had disturbed the stoic procession; far to the east was a small billowing cloud of dust approaching at a remarkable pace among the dunes. Ibram knew instantly that this was danger. The Arrowtongue, an apex predator known by legend. The speed alone was a clue, but at the tip of the cloud he could spot the bright crimson mark of the beasts grotesque head.
+          Ahead he saw the careful movement of a dozen guards and two other Armigers as they warily spread out towards the approaching cloud. Sighing, he moved to join them. He touched the useless blade at his side, its presence a comfort, then unslung the battered carbine from his shoulder. The violence would cost them dearly; this was no place to fight such a thing. "And with the city in sight", he thought.
 
-        He had never faced such a creature before, yet felt no fear. There was no use for such things when one is already dead. The death that he had sought had been a slow one to give him time to adjust. It had been a good decision, for at times like these he knew he was prepared.
-        It was mere minutes before the Arrowtongue was upon them, and then only seconds before the whole confrontation was done. Within a hundred meters the defenders opened up, the crack of a dozen firearms sounding in rapid succession. Ibram added his own to the stuccato chorus, watching the ball go low into the beasts foreleg in a tiny bloom of red. The blood was suddenly rushing in his ears. He cracked open the breech, ejecting the empty cartridge and jamming in another, the jagged edge of the mill scraching across his leather palm.  With a click the breech was closed and he readied the weapon to his shoulder, took aim, and pulled the trigger. Nothing but a hiss. Ibram began cursing the crude powder that endlessly fouled the barrel, again cracking open the breach and replacing the half burnt cartridge. 
-        But, suddenly, all was wind and dust and screams. A terrified wail erupted to left of Ibram, the six legged creature clearly upon crowd. For minutes he wandered hopelessly through the haze, following the tumultuos noises of violence and then disarray, until all turned eerily quiet. 
+          He had never faced such a creature before, yet felt no fear. There was no use for such things when one is already dead. The death that he had sought had been a slow one to give him time to adjust. It had been a good decision, for at times like these he knew he was prepared.
+          It was mere minutes before the Arrowtongue was upon them, and then only seconds before the whole confrontation was done. Within a hundred meters the defenders opened up, the crack of a dozen firearms sounding in rapid succession. Ibram added his own to the stuccato chorus, watching the ball go low into the beasts foreleg in a tiny bloom of red. The blood was suddenly rushing in his ears. He cracked open the breech, ejecting the empty cartridge and jamming in another, the jagged edge of the mill scraching across his leather palm.  With a click the breech was closed and he readied the weapon to his shoulder, took aim, and pulled the trigger. Nothing but a hiss. Ibram began cursing the crude powder that endlessly fouled the barrel, again cracking open the breach and replacing the half burnt cartridge. 
+          But, suddenly, all was wind and dust and screams. A terrified wail erupted to left of Ibram, the six legged creature clearly upon crowd. For minutes he wandered hopelessly through the haze, following the tumultuos noises of violence and then disarray, until all turned eerily quiet. 
 
-        And then it was gone, leaving a trail of dust and five dead in its wake. As the clouds slowly settled the carnage became apparent. One had been crushed under the creatures great reptilian legs. The others had all become victims of the its eponymous tongue, their corpses mere husks. The bodies were wrapped with practised ease in burlap cloth by the pilgrims and Ibram helped as the remains were deftly loaded onto a cart. Slowly the procession continued, little to mark the gruesome event but bad memories and another burden.
-        "Nothing left", Ibram mumbled, eyeing the willowy dead. 
+          And then it was gone, leaving a trail of dust and five dead in its wake. As the clouds slowly settled the carnage became apparent. One had been crushed under the creatures great reptilian legs. The others had all become victims of the its eponymous tongue, their corpses mere husks. The bodies were wrapped with practised ease in burlap cloth by the pilgrims and Ibram helped as the remains were deftly loaded onto a cart. Slowly the procession continued, little to mark the gruesome event but bad memories and another burden.
+          "Nothing left", Ibram mumbled, eyeing the willowy dead. 
 
-        It only occurred to him after to wonder where the Arrowtongue had been going. Looking west to the sea, it had seemingly vanished. Dunes as far as the eye could see, until a sliver azure waters met the blackness of the horizon. 
-        "How could that be?" he wondered.
+          It only occurred to him after to wonder where the Arrowtongue had been going. Looking west to the sea, it had seemingly vanished. Dunes as far as the eye could see, until a sliver azure waters met the blackness of the horizon. 
+          "How could that be?" he wondered.
 
-        The rest of the journey was uneventful. The dark waters of the Sabian Sea crept closer as they marched toward the port town. Their arrival in Carcosa was clearly foreseen but evidently not with much enthusiasm.
+          The rest of the journey was uneventful. The dark waters of the Sabian Sea crept closer as they marched toward the port town. Their arrival in Carcosa was clearly foreseen but evidently not with much enthusiasm.
 
-        They approached from the south and Ibram noted the feeble stick palisade, dour minutemen staring out from rickety watchtowers. The gate was little more than raw timber, he judged a few men could smash it down. Oddly poor defenses for such a hostile frontier. 
+          They approached from the south and Ibram noted the feeble stick palisade, dour minutemen staring out from rickety watchtowers. The gate was little more than raw timber, he judged a few men could smash it down. Oddly poor defenses for such a hostile frontier. 
 
-        Passing through it, the rest of the town looked little better. Crooked and bare buildings were patched right into the sides of massive basalt towers that rose high above sad wooden walls. Most of the pilgrims from the caravan trudged on towards the Atrium Carceri, where he knew their pilgrimage would end. Ibram gave a terse wave to the two Armigers, Etil and Mox, as he broke away from the procession. Here, along what passed for a main avenue, a few savvy peddlers hawking goods did little to hide the hostility of the locals. Nearly every face Ibram turned to was masked under the umbrage of suspicion. A dreary place to work perhaps, but there was certainly work to do...
-      </p>
-      <h3>Options</h3>
-      <ul>
-        <li>Meet Contact</li>
-        <li>Find an Inn</li>
-        <li>Visit Stalls</li>
-        <li>Question Locals</li>
-      </ul>
-      
+          Passing through it, the rest of the town looked little better. Crooked and bare buildings were patched right into the sides of massive basalt towers that rose high above sad wooden walls. Most of the pilgrims from the caravan trudged on towards the Atrium Carceri, where he knew their pilgrimage would end. Ibram gave a terse wave to the two Armigers, Etil and Mox, as he broke away from the procession. Here, along what passed for a main avenue, a few savvy peddlers hawking goods did little to hide the hostility of the locals. Nearly every face Ibram turned to was masked under the umbrage of suspicion. A dreary place to work perhaps, but there was certainly work to do...
+        </p>
+        <h3>Options</h3>
+        <ul>
+          <li>Meet Contact</li>
+          <li>Find an Inn</li>
+          <li>Visit Stalls</li>
+          <li>Question Locals</li>
+        </ul>
+      </div>
     </>
   )
 }
