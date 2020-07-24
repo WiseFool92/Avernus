@@ -5,9 +5,9 @@ function Header() {
   const headerStyle = {
     display: 'flex',
     justifyContent: 'space-around',
-    backgroundColor: 'gray',
+    backgroundColor: 'black',
     // fontSize: '30px',
-    color: 'white',
+    color: 'crimson',
     width: '100vh',
     borderBottom: '.2rem solid black',
     margin: '.1rem',
