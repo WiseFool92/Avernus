@@ -11,7 +11,7 @@ function StoryBoard(){
           <ul>
             <li>Avernus:</li>
               <p>An underground tombworld.</p>
-            <li>Eastern Gallery:</li>
+            <li>Western Gallery:</li>
               <p>
                 A large, unnatural cave with the Pendulum hanging at its apex.
               </p>
