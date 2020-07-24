@@ -1,7 +1,7 @@
-import { BrowerRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import './App.css';
 import React from 'react';
-import Login from './Login';
+// import Login from './Login';
 import Header from './Header';
 import StoryBoard from './StoryBoard';
 

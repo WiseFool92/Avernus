@@ -1,5 +1,5 @@
-import * as c from '../actions/ActionsTypes';
-import { login } from '../actions/Login';
+import * as c from '../actions/ActionTypes';
+import { Login } from '../actions/Login';
 
 // I am unsure if all of this will click together as intended later
 // Might need to refactor, but is fine as is for now
