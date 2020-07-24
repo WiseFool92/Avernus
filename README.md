@@ -112,7 +112,7 @@ _N/A_ - 7/14/2020
 
 ## GitHub / gh-pages
 
-WiseFool92.github.io/profileshell
+WiseFool92.github.io/avernus
 
 ---
 
