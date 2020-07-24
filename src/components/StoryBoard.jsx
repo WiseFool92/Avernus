@@ -60,6 +60,43 @@ function StoryBoard(){
           <p>...</p>
         <h3>Bios:</h3>
         <h4>Ibram Messer</h4>
+        <h4>Inventory</h4>
+          <ul>
+            <li>Clothes:</li>
+              <p>
+                Armigers Vestment(chitin still suit), Blouse(wool), Breeches(wool), Hand Wraps(leather), Worn Boots(leather), Amulet(Elder Sign)
+              </p>
+            <li>Pack:</li>
+              <p>
+                Travel rations(~5 days), Camelback Pouch(suit refills), Non-magnifying Glass(implement), Glass Stiletto(100%), Sewing kit(80%), Lockpicks(45%), 2x Tin vials(phosphorous), Everlight(89%), Rags, 1x Tin(cleaning solvent), Lux et Tenebrae(grimoire)
+              </p>
+            <li>Yatagan</li>
+              <p>
+                (Steel Cutlass)
+              </p>
+            <li>Venwich Model 7</li>
+              <p>
+                (Breech-loading Carbine)
+              </p>
+            <li>Cartridge Pouch</li>
+              <p>
+                (~40 cartridges)
+              </p>
+          </ul>
+        <h4>Spells</h4>
+          <ul>
+            <li>Ardent Flux:</li>
+              <p>Adept (Skill Level): A relatively simple theurgy, using phosphorous, somatic, and memetic components to create a blinding light.
+              </p>
+            <li>Forlorn Encystment:</li>
+              <p>
+                Poor (Skill Level):A classic but difficult bit of hedge magic that imprisons a subject in the earth. Requires an effective implement(Non-magnifying Glass).
+              </p>
+            <li>True Sight:</li>
+              <p>
+                "You will never be decieved by others, only by your self. You will see through all illusions and disguises, the true form of all things" he laughs, the madness visible in his eyes. "Even those that aren't there..."
+              </p>
+          </ul>
         <p>
           A gaunt but striking figure, Messer is a prototypical example of a Yeoman of the Japing Armigers.
         </p>
