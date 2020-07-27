@@ -219,7 +219,7 @@ Languages:
 React.js
 CSS & HTML
 
-Now considering learning Golang & GopherJS
+Researching AntDesign & how it looks
 
 
 Libraries / Dependencies:
