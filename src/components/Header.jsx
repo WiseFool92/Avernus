@@ -19,6 +19,7 @@ function Header() {
       <h1>Avernus</h1>
       <Link to = 'login'>Login</Link>
       <Link to = '/'>Home</Link>
+      <Link to = 'storyboard'>storyboard</Link>
     </nav>
   )
 };
