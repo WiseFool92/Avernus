@@ -4,10 +4,12 @@ import React from 'react';
 // import Login from './Login';
 import Header from './Header';
 import StoryBoard from './StoryBoard';
+import Navbar from "./Navbar/Navbar"
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <Header />
       <Switch>
         {/* <Route path ='/login'>
