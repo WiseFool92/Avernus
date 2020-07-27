@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import PropTypes from 'prop-types';
 
 function StoryBoard(){
@@ -17,7 +18,7 @@ function StoryBoard(){
               </p>
             <li>Pendulum:</li>
               <p>
-                Soli invicto. Far overhead burns the false sun, cast into the roof of the eastern gallery by the arcanists of the College of Dunwich. A fickle thing, without its light all would be cast into darkness.
+                Soli invicto. Far overhead burns the false sun, cast into the roof of the western gallery by the arcanists of the College of Dunwich. A fickle thing, without its light all would be cast into darkness.
               </p>
             <li>Pilgrims Path:</li>
               <p>
@@ -29,7 +30,7 @@ function StoryBoard(){
               </p>
             <li>Sabian Sea:</li>
               <p>
-                Western border of the Eastern gallery. Beyond lies darkness and the unknown.
+                Eastern border of the Western gallery. Beyond lies darkness and the unknown.
               </p>
             <li>Northern Fells:</li>
               <p>
