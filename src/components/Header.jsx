@@ -8,7 +8,7 @@ function Header() {
     backgroundColor: 'black',
     // fontSize: '30px',
     color: 'crimson',
-    width: '100vh',
+    // width: '100vh',
     borderBottom: '.2rem solid black',
     margin: '.1rem',
     padding: '1rem'
@@ -16,10 +16,14 @@ function Header() {
 
   return (
     <nav style = {headerStyle}>
-      <h1>Avernus</h1>
-      <Link to = '/'>Home</Link>
-      <Link to = 'storyboard'>Storyboard</Link>
-      <Link to = 'login'>Login</Link>
+      <h1>Avernus</h1> 
+      <hr/>
+        <ul>
+          <li><Link to = '/'>Home</Link></li>
+          <li><Link to = 'storyboard'>Storyboard</Link></li>
+          <li><Link to = 'login'>Login</Link></li>
+        
+      </ul>
     </nav>
   )
 };
