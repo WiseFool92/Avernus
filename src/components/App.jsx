@@ -10,9 +10,9 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route path ='/login'>
+        {/* <Route path ='/login'>
           <Login />
-        </Route>
+        </Route> */}
         <Route path ='/storyboard'>
           <StoryBoard />
         </Route>
