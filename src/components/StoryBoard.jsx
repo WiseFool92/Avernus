@@ -6,9 +6,8 @@ function StoryBoard(){
   return (
     <>
       <div className='storyboard'>
-        <h1>The Story So Far</h1>
-        <h2>The Road to Carcosa</h2>
-        <h3>Places:</h3>
+        <h1>The Road to Carcosa</h1>
+        <h2>Places:</h2>
           <ul>
             <li>Avernus:</li>
               <p>An underground tombworld.</p>
@@ -52,18 +51,18 @@ function StoryBoard(){
                 <li>Rookery: Hard to believe Carcosa has a slum. Populated primarily by the Dagonites.</li>
               </ul> 
           </ul>
-        <h3>Peoples:</h3>
-        <h4>Japing Armigers:</h4>
+        <h2>Peoples:</h2>
+        <h3>Japing Armigers:</h3>
           <p>To spend oneself in a worthy cause.</p>
-        <h4>Kyr:</h4>
+        <h3>Kyr:</h3>
           <p>Citizens of the Kyr Commonwealth.</p>
-        <h4>Dagonites</h4>
+        <h3>Dagonites</h3>
           <p>...</p>
-        <h3>Bios:</h3>
-        <h4>Ibram Messer</h4>
+        <h2>Bios:</h2>
+        <h3>Ibram Messer</h3>
         <h4>Inventory</h4>
           <ul>
-            <li>Clothes:</li>
+            <h4>Clothes:</h4>
               <p>
                 <li>Armigers Vestment(chitin still suit)</li>
                 <li>Blouse(wool)</li>
@@ -72,7 +71,7 @@ function StoryBoard(){
                 <li>Worn Boots(leather)</li>
                 <li>Amulet(Elder Sign)</li>
               </p>
-            <li>Pack:</li>
+            <h4>Pack:</h4>
               <p>
                 <li>Travel rations(~5 days)</li>
                 <li>Camelback Pouch(suit refills)</li>
@@ -86,15 +85,15 @@ function StoryBoard(){
                 <li>1x Tin(cleaning solvent)</li>
                 <li>Lux et Tenebrae(grimoire)</li>
               </p>
-            <li>Yatagan</li>
+            <h4>Yatagan</h4>
               <p>
                 (Steel Cutlass)
               </p>
-            <li>Venwich Model 7</li>
+            <h4>Venwich Model 7</h4>
               <p>
                 (Breech-loading Carbine)
               </p>
-            <li>Cartridge Pouch</li>
+            <h4>Cartridge Pouch</h4>
               <p>
                 (~40 cartridges)
               </p>
@@ -116,19 +115,19 @@ function StoryBoard(){
         <p>
           A gaunt but striking figure, Messer is a prototypical example of a Yeoman of the Japing Armigers.
         </p>
-        <h4>Melbourne</h4>
+        <h3>Melbourne</h3>
         <p>
           ...
         </p>
-        <h4>Amis</h4>
+        <h3>Amis</h3>
         <p>
           ...
         </p>
-        <h4>Etil & Mox</h4>
+        <h3>Etil & Mox</h3>
         <p>
           You do not know them well, and they certainly don't seem to want to know you. Assigned to watch the Pilgrims Path, the two yeomen were cold and quiet companions on the road.
         </p>
-        <h4>Zur the Shaper</h4>
+        <h3>Zur the Shaper</h3>
         <p>
           Your contact in Carcosa, Zur is the definition of eccentric. A mendicant and arcanist with the College of Dunwich, he is investigating odd reports from the foggy coastal colony. [He lives under a tent in the Rookery, a Dagonite slum.]
         </p>
