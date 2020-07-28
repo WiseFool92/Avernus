@@ -4,7 +4,8 @@ import React from 'react';
 // import Login from './Login';
 import Header from './Header';
 import StoryBoard from './StoryBoard';
-import Navbar from "./Navbar/Navbar"
+import Navbar from "./Navbar/Navbar";
+import Contact from './Contact';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         </Route> */}
         <Route path ='/storyboard'>
           <StoryBoard />
+        </Route>
+        <Route path ='/contact'>
+          <Contact />
         </Route>
       </Switch>
     </Router>
