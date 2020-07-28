@@ -3,56 +3,72 @@ import './App.css';
 import PropTypes from 'prop-types';
 
 function StoryBoard(){
-  
+  const placesStyle = {
+    width: '95vw',
+    marginLeft: '2.5vw',
+    padding: '5rem',
+    fontWeight: 'normal'
+    // display: 'flex',
+    // justifyContent: 'space-around',
+    // backgroundColor: 'black',
+    // fontSize: '30px',
+    // color: 'crimson',
+    // width: '100vh',
+    // borderBottom: '.2rem solid black',
+    // margin: '.1rem',
+    // padding: '1rem'
+  }
   return (
     <>
       <div className='storyboard'>
         <h1>The Road to Carcosa</h1>
-        <div className='places'>
+        <div className='places-card' style = {placesStyle}>
           <h2>Places:</h2>
-            <ul>
-              <li>Avernus:</li>
-                <p>An underground tombworld.</p>
-              <li>Western Gallery:</li>
-                <p>
-                  A large, unnatural cave with the Pendulum hanging at its apex.
-                </p>
-              <li>Pendulum:</li>
-                <p>
-                  Soli invicto. Far overhead burns the false sun, cast into the roof of the western gallery by the arcanists of the College of Dunwich. A fickle thing, without its light all would be cast into darkness.
-                </p>
-              <li>Pilgrims Path:</li>
-                <p>
-                  Walked by Un-Kai, the wise word misplaced.
-                </p>
-              <li>Chitin Road:</li>
-                <p>
-                  A high road that spiders outward from New Dunwich across the Kyr, even to the edge of the serpents spine.
-                </p>
-              <li>Sabian Sea:</li>
-                <p>
-                  Eastern border of the Western gallery. Beyond lies darkness and the unknown.
-                </p>
-              <li>Northern Fells:</li>
-                <p>
-                  The Fells lead up to the great basalt edifice of the north wall.
-                </p>
-              <li>Reiksweald:</li>
-                <p>
-                  Wild and savage myconid forest.
-                </p>
-              <li>Carcosa:</li>
-                <p>
-                  Built on top of an ancient, antidiluvian ruin. Carcosa is a colony town that sits along the southern bank of the Tanith river where it meets the Sabian Sea.
-                </p>
-                <ul>
-                  <li>Main square: market, gibbet, guard house</li>
-                  <li>Luckless Mule: Inexpensive Inne, poor food and plentiful drink</li>
-                  <li>Atrium Carceri: One of the few towers with an accesible entrance, and the tallest. Used as a library and temple to Un-Kai, the first of the Walking Ones.</li>
-                  <li>Port: Crude docks provide shelter to the keelboats of the river Tanith and the brigs of the Sabian Sea.</li>
-                  <li>Rookery: Hard to believe Carcosa has a slum. Populated primarily by the Dagonites.</li>
-                </ul> 
-            </ul>
+            <div className='row'>
+              <div className='col-md-6'>
+                <li>Avernus:</li>
+                  <p>An underground tombworld.</p>
+                <li>Western Gallery:</li>
+                  <p>
+                    A large, unnatural cave with the Pendulum hanging at its apex.
+                  </p>
+                <li>Pendulum:</li>
+                  <p>
+                    Soli invicto. Far overhead burns the false sun, cast into the roof of the western gallery by the arcanists of the College of Dunwich. A fickle thing, without its light all would be cast into darkness.
+                  </p>
+                <li>Pilgrims Path:</li>
+                  <p>
+                    Walked by Un-Kai, the wise word misplaced.
+                  </p>
+                <li>Chitin Road:</li>
+                  <p>
+                    A high road that spiders outward from New Dunwich across the Kyr, even to the edge of the serpents spine.
+                  </p>
+                <li>Sabian Sea:</li>
+                  <p>
+                    Eastern border of the Western gallery. Beyond lies darkness and the unknown.
+                  </p>
+                <li>Northern Fells:</li>
+                  <p>
+                    The Fells lead up to the great basalt edifice of the north wall.
+                  </p>
+                <li>Reiksweald:</li>
+                  <p>
+                    Wild and savage myconid forest.
+                  </p>
+                <li>Carcosa:</li>
+                  <p>
+                    Built on top of an ancient, antidiluvian ruin. Carcosa is a colony town that sits along the southern bank of the Tanith river where it meets the Sabian Sea.
+                  </p>
+                  <ul>
+                    <li>Main square: market, gibbet, guard house</li>
+                    <li>Luckless Mule: Inexpensive Inne, poor food and plentiful drink</li>
+                    <li>Atrium Carceri: One of the few towers with an accesible entrance, and the tallest. Used as a library and temple to Un-Kai, the first of the Walking Ones.</li>
+                    <li>Port: Crude docks provide shelter to the keelboats of the river Tanith and the brigs of the Sabian Sea.</li>
+                    <li>Rookery: Hard to believe Carcosa has a slum. Populated primarily by the Dagonites.</li>
+                  </ul> 
+              </div>
+            </div>
         </div>
         <div className='peoples'>
           <h2>Peoples:</h2>
