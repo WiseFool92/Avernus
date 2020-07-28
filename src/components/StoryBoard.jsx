@@ -20,16 +20,37 @@ function StoryBoard(){
     // margin: '.1rem',
     // padding: '1rem'
   }
+
+  const focusStyle = {
+    marginLeft: '1.25vw',
+    marginRight: '1.25vw',
+    padding: '5rem',
+    fontWeight: 'normal',
+    padding: '1rem 0',
+    textAlign: 'center',
+    fontWeight: '900',
+    border: '1px solid rgb(12, 105, 12)',
+    display: 'flex',
+    padding: '1rem 0',
+    margin: '1rem 0',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'space-evenly',
+    color: '#0d3017',
+    borderRadius: '5px',
+    backgroundColor: 'rgba(255, 255, 255, 0.537)',
+    boxShadow: '5px 5px 8px 5px rgba(0, 0, 0, 0.449)',
+  }
+
   return (
     <>
       <div className='storyboard'>
         <h1>The Road to Carcosa</h1>
         <div className='places-card' style = {placesStyle}>
           <h2>Locations of Interest</h2>
-            <div className='row'>
+            <div className='row' style = {focusStyle}>
               <div className='col-md-6'>
-                
-                <h3>Avernus</h3>
+                 <h3>Avernus</h3>
                 <img src={caveTown} className='storyBoardImg'></img>
                   <p>An underground tombworld.</p>
               </div>
