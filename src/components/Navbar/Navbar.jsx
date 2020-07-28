@@ -3,6 +3,7 @@ import { MenuItems } from './MenuItems'
 import Item from 'antd/lib/list/Item';
 import './Navbar.css'
 import { Button } from './Button'
+import logo from '../Img/logo.png'
 
 class Navbar extends Component {
 
@@ -15,7 +16,8 @@ class Navbar extends Component {
   render() {
     return (
       <nav className='NavbarItems'>
-        <h1 className='navbar-logo'>Avernus<i className='fab fa-react'></i></h1>
+        <img src={logo} alt='logo' className='co-logo'></img>
+        <h1 className='navbar-logo'>Avernus</h1>
         <div className='menu-icon' onClick={this.handleClick}>
           <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
         </div>
