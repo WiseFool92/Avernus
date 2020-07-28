@@ -1,19 +1,22 @@
 import React, { useState } from 'react';
-import DropdownButton from 'react-bootstrap/DropdownButton';
+// import DropdownButton from 'react-bootstrap/DropdownButton';
 // import Dropdown from 'react-bootstrap/Dropdown';
-import { DropdownItem } from 'reactstrap';
+// import { DropdownItem } from 'reactstrap';
 
 function Encyclopedia() {
 
   return (
     <>
-      <DropdownButton
+    <div>
+      <h1>Hi</h1>
+    </div>
+      {/* <DropdownButton
         alignRight
       >
         <DropdownItem eventKey = 'Regions'>Regions</DropdownItem>
         <DropdownItem eventKey = 'Beastiary'>Beastiary</DropdownItem>
       </DropdownButton>
-      
+       */}
     </>
   )
 };

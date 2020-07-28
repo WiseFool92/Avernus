@@ -3,6 +3,7 @@ import './App.css';
 import PropTypes from 'prop-types';
 
 function StoryBoard(){
+  
   return (
     <>
       <div className='storyboard'>
@@ -178,6 +179,7 @@ function StoryBoard(){
           <li>Question Locals</li>
         </ul>
       </div>
+         
     </>
   )
 };

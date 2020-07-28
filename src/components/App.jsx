@@ -7,6 +7,7 @@ import StoryBoard from './StoryBoard';
 import Navbar from "./Navbar/Navbar";
 import Contact from './Contact';
 import Home from './Home';
+import Encyclopedia from './Encyclopedia';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path ='/storyboard'>
           <StoryBoard />
+        </Route>
+        <Route path ='/encyclopedia'>
+          <Encyclopedia />
         </Route>
         <Route path ='/contact'>
           <Contact />

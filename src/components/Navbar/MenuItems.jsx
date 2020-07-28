@@ -12,7 +12,7 @@ export const MenuItems = [
   },
   {
     title: 'Encyclopedia',
-    url: '#',
+    url: '/Encyclopedia',
     cName: 'nav-links'
   },
   {
