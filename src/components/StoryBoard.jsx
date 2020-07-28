@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
 import PropTypes from 'prop-types';
+import caveTown from './Img/caveTown.jpg';
 
 function StoryBoard(){
   const placesStyle = {
-    width: '95vw',
-    marginLeft: '2.5vw',
+    // width: '95vw',
+    marginLeft: '1.25vw',
+    marginRight: '1.25vw',
     padding: '5rem',
     fontWeight: 'normal'
     // display: 'flex',
@@ -23,40 +25,46 @@ function StoryBoard(){
       <div className='storyboard'>
         <h1>The Road to Carcosa</h1>
         <div className='places-card' style = {placesStyle}>
-          <h2>Places:</h2>
+          <h2>Locations of Interest</h2>
             <div className='row'>
               <div className='col-md-6'>
-                <li>Avernus:</li>
+                
+                <h3>Avernus</h3>
+                <img src={caveTown} className='storyBoardImg'></img>
                   <p>An underground tombworld.</p>
-                <li>Western Gallery:</li>
+              </div>
+              <div className='col-md-6'>
+                <h3>Western Gallery</h3>
                   <p>
                     A large, unnatural cave with the Pendulum hanging at its apex.
                   </p>
-                <li>Pendulum:</li>
+              </div>
+            </div>
+                <h3>Pendulum:</h3>
                   <p>
                     Soli invicto. Far overhead burns the false sun, cast into the roof of the western gallery by the arcanists of the College of Dunwich. A fickle thing, without its light all would be cast into darkness.
                   </p>
-                <li>Pilgrims Path:</li>
+                <h3>Pilgrims Path:</h3>
                   <p>
                     Walked by Un-Kai, the wise word misplaced.
                   </p>
-                <li>Chitin Road:</li>
+                <h3>Chitin Road:</h3>
                   <p>
                     A high road that spiders outward from New Dunwich across the Kyr, even to the edge of the serpents spine.
                   </p>
-                <li>Sabian Sea:</li>
+                <h3>Sabian Sea:</h3>
                   <p>
                     Eastern border of the Western gallery. Beyond lies darkness and the unknown.
                   </p>
-                <li>Northern Fells:</li>
+                <h3>Northern Fells:</h3>
                   <p>
                     The Fells lead up to the great basalt edifice of the north wall.
                   </p>
-                <li>Reiksweald:</li>
+                <h3>Reiksweald:</h3>
                   <p>
                     Wild and savage myconid forest.
                   </p>
-                <li>Carcosa:</li>
+                <h3>Carcosa:</h3>
                   <p>
                     Built on top of an ancient, antidiluvian ruin. Carcosa is a colony town that sits along the southern bank of the Tanith river where it meets the Sabian Sea.
                   </p>
@@ -67,10 +75,11 @@ function StoryBoard(){
                     <li>Port: Crude docks provide shelter to the keelboats of the river Tanith and the brigs of the Sabian Sea.</li>
                     <li>Rookery: Hard to believe Carcosa has a slum. Populated primarily by the Dagonites.</li>
                   </ul> 
-              </div>
-            </div>
+              
+            
         </div>
-        <div className='peoples'>
+        
+        <div className='peoples' className='places-card' style = {placesStyle}>
           <h2>Peoples:</h2>
           <h3>Japing Armigers:</h3>
             <p>To spend oneself in a worthy cause.</p>
