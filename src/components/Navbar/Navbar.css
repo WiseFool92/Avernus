@@ -54,6 +54,8 @@
   display: none;
 }
 
+/* For Mobile Viewing Display */
+
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
@@ -133,6 +135,6 @@
   }
 
   Button {
-    display: none;
+    /* display: none; */
   }
 }

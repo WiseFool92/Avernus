@@ -25,11 +25,8 @@ class Navbar extends Component {
               <li key={index}>
                 <a className={item.cName} href={item.url}>{item.title}</a>
               </li>
-              
             )
           })}
-
-
         </ul>
         <Button>Login</Button>
       </nav>
