@@ -6,16 +6,20 @@ import Header from './Header';
 import StoryBoard from './StoryBoard';
 import Navbar from "./Navbar/Navbar";
 import Contact from './Contact';
+import Home from './Home'
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <Header />
+      {/* <Header /> */}
       <Switch>
         {/* <Route path ='/login'>
           <Login />
         </Route> */}
+        <Route path ='/home'>
+          <Home />
+        </Route>
         <Route path ='/storyboard'>
           <StoryBoard />
         </Route>
