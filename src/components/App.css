@@ -9,12 +9,16 @@
 .co-logo {
   width: 10vh;
   height: 10vh;
-  padding: .2rem;
+  /* padding: 1rem; */
 }
 
 .splash {
-  width: 100vh;
-  height: 100vh;
+  width: 70vh;
+  height: 70vh;
+  /* padding: 1rem; */
+  /* margin: 1rem; */
+  /* justify-content: space-evenly;
+  float: right; */
 }
 
 .places-card {
@@ -31,6 +35,7 @@
   background-color: rgba(255, 255, 255, 0.537);
   box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.449);
 }
+
 .places-card div {
   padding: 1rem 0;
   text-align: center;
@@ -38,7 +43,7 @@
 }
 
 .storyBoardImg {
-  width: 20vw;
-  height: 20vh;
+  width: 35vw;
+  height: 35vh;
   
 }

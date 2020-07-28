@@ -6,11 +6,13 @@ function Home() {
   const homeStyle = {
     display: 'flex',
     justifyContent: 'space-around',
-    backgroundColor: 'black',
+    backgroundColor: 'rgb(70, 4, 156)',
     // fontSize: '30px',
-    color: 'crimson',
+    color: 'whitesmoke',
     // width: '100vh',
     borderBottom: '.2rem solid black',
+    width: '98.9vw',
+    height: '98.9vh'
     // margin: '.1rem',
     // padding: '1rem',
     // borderRadius: '8px',

@@ -40,6 +40,8 @@ function StoryBoard(){
     borderRadius: '5px',
     backgroundColor: 'rgba(255, 255, 255, 0.537)',
     boxShadow: '5px 5px 8px 5px rgba(0, 0, 0, 0.449)',
+    height: '50vh',
+    width: '50vw'
   }
 
   return (
@@ -50,10 +52,12 @@ function StoryBoard(){
           <h2>Locations of Interest</h2>
             <div className='row' style = {focusStyle}>
               <div className='col-md-6'>
-                 <h3>Avernus</h3>
+                <h3>Avernus</h3>
                 <img src={caveTown} className='storyBoardImg'></img>
-                  <p>An underground tombworld.</p>
+                <p>An underground tombworld.</p>
               </div>
+            </div>
+            <div className='row' style = {focusStyle}>
               <div className='col-md-6'>
                 <h3>Western Gallery</h3>
                   <p>
@@ -61,6 +65,7 @@ function StoryBoard(){
                   </p>
               </div>
             </div>
+
                 <h3>Pendulum:</h3>
                   <p>
                     Soli invicto. Far overhead burns the false sun, cast into the roof of the western gallery by the arcanists of the College of Dunwich. A fickle thing, without its light all would be cast into darkness.
