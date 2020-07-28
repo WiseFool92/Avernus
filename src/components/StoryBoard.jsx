@@ -65,31 +65,56 @@ function StoryBoard(){
                   </p>
               </div>
             </div>
-
+            <div className='row' style = {focusStyle}>
+              <div className='col-md-6'>
                 <h3>Pendulum:</h3>
                   <p>
                     Soli invicto. Far overhead burns the false sun, cast into the roof of the western gallery by the arcanists of the College of Dunwich. A fickle thing, without its light all would be cast into darkness.
                   </p>
+              </div>
+            </div>
+            <div className='row' style = {focusStyle}>
+              <div className='col-md-6'>
                 <h3>Pilgrims Path:</h3>
                   <p>
                     Walked by Un-Kai, the wise word misplaced.
                   </p>
+              </div>
+            </div>
+            <div className='row' style = {focusStyle}>
+              <div className='col-md-6'>
                 <h3>Chitin Road:</h3>
                   <p>
                     A high road that spiders outward from New Dunwich across the Kyr, even to the edge of the serpents spine.
                   </p>
+              </div>
+            </div>
+            <div className='row' style = {focusStyle}>
+              <div className='col-md-6'>
                 <h3>Sabian Sea:</h3>
                   <p>
                     Eastern border of the Western gallery. Beyond lies darkness and the unknown.
                   </p>
+              </div>
+            </div>
+            <div className='row' style = {focusStyle}>
+              <div className='col-md-6'>
                 <h3>Northern Fells:</h3>
                   <p>
                     The Fells lead up to the great basalt edifice of the north wall.
                   </p>
+              </div>
+            </div>
+            <div className='row' style = {focusStyle}>
+              <div className='col-md-6'>
                 <h3>Reiksweald:</h3>
                   <p>
                     Wild and savage myconid forest.
                   </p>
+              </div>
+            </div>
+            <div className='row' style = {focusStyle}>
+              <div className='col-md-6'>
                 <h3>Carcosa:</h3>
                   <p>
                     Built on top of an ancient, antidiluvian ruin. Carcosa is a colony town that sits along the southern bank of the Tanith river where it meets the Sabian Sea.
@@ -101,8 +126,8 @@ function StoryBoard(){
                     <li>Port: Crude docks provide shelter to the keelboats of the river Tanith and the brigs of the Sabian Sea.</li>
                     <li>Rookery: Hard to believe Carcosa has a slum. Populated primarily by the Dagonites.</li>
                   </ul> 
-              
-            
+              </div>
+            </div>
         </div>
         
         <div className='peoples' className='places-card' style = {placesStyle}>
@@ -220,7 +245,7 @@ function StoryBoard(){
             Passing through it, the rest of the town looked little better. Crooked and bare buildings were patched right into the sides of massive basalt towers that rose high above sad wooden walls. Most of the pilgrims from the caravan trudged on towards the Atrium Carceri, where he knew their pilgrimage would end. Ibram gave a terse wave to the two Armigers, Etil and Mox, as he broke away from the procession. Here, along what passed for a main avenue, a few savvy peddlers hawking goods did little to hide the hostility of the locals. Nearly every face Ibram turned to was masked under the umbrage of suspicion. A dreary place to work perhaps, but there was certainly work to do...
           </p>
         </div>
-        <h2>Where will the story go from here? You decide!</h2>
+        <h2>Which story shall be fulfilled?</h2>
         <h3>Options</h3>
         
         <ul>
