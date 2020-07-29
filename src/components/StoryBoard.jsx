@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import caveTown from './Img/caveTown.jpg';
 import IbramM from './Img/IbramM.jpg';
-import Dropdown from 'react';
+// import Dropdown from 'react';
 
 function StoryBoard(){
   const cardStyle = {

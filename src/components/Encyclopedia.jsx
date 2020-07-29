@@ -3,8 +3,11 @@
 // import Dropdown from 'react-bootstrap/Dropdown';
 // import { DropdownItem } from 'reactstrap';
 // import Dropdown from 'react';
-import Dropdown from 'react';
+// import Dropdown from 'react';
 import React, { Component } from 'react';
+import Dropdown from './Dropdown/Dropdown';
+import Items from './Dropdown/Items'
+import './App.scss';
 
 function Encyclopedia() {
 
@@ -12,8 +15,11 @@ function Encyclopedia() {
     <>
     <div>
       <h1>Hi</h1>
+      <div className='container'>
+        <Dropdown title='Select Option' items={items}/>
+      </div>
     </div>
-      <DropdownButton
+      {/* <DropdownButton
         alignRight
       >
         <DropdownItem eventKey = 'Regions'>Regions</DropdownItem>
@@ -32,7 +38,7 @@ function Encyclopedia() {
               <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
               <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
             </Dropdown.Menu>
-          </Dropdown> 
+          </Dropdown>  */}
      </>
   )
 };
