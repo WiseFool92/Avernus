@@ -2,9 +2,10 @@ import React from 'react';
 import './App.css';
 import PropTypes from 'prop-types';
 import caveTown from './Img/caveTown.jpg';
+import IbramM from './Img/IbramM.jpg';
 
 function StoryBoard(){
-  const placesStyle = {
+  const cardStyle = {
     // width: '95vw',
     marginLeft: '1.25vw',
     marginRight: '1.25vw',
@@ -48,7 +49,7 @@ function StoryBoard(){
     <>
       <div className='storyboard'>
         <h1>The Road to Carcosa</h1>
-        <div className='places-card' style = {placesStyle}>
+        <div className='places-card' style = {cardStyle}>
           <h2>Locations of Interest</h2>
             <div className='row' style = {focusStyle}>
               <div className='col-md-6'>
@@ -130,72 +131,98 @@ function StoryBoard(){
             </div>
         </div>
         
-        <div className='peoples' className='places-card' style = {placesStyle}>
+        <div className='peoples' className='places-card' style = {cardStyle}>
           <h2>Peoples:</h2>
-          <h3>Japing Armigers:</h3>
-            <p>To spend oneself in a worthy cause.</p>
-          <h3>Kyr:</h3>
-            <p>Citizens of the Kyr Commonwealth.</p>
-          <h3>Dagonites</h3>
-            <p>...</p>
+          <div className='row' style = {focusStyle}>
+            <div className='col-md-6'>
+              <h3>Japing Armigers:</h3>
+                <p>To spend oneself in a worthy cause.</p>
+              </div>
+          </div>
+          <div className='row' style = {focusStyle}>
+            <div className='col-md-6'>
+              <h3>Kyr:</h3>
+                <p>Citizens of the Kyr Commonwealth.</p>
+            </div>
+          </div>
+          <div className='row' style = {focusStyle}>
+            <div className='col-md-6'>
+              <h3>Dagonites</h3>
+                <p>...</p>
+            </div>
+          </div>
         </div>
-        <div className='bios'>
-          <h2>Ibram Messer</h2>
-          <h4>Inventory</h4>
-            <ul>
-              <h4>Clothes:</h4>
-                <p>
-                  <li>Armigers Vestment(chitin still suit)</li>
-                  <li>Blouse(wool)</li>
-                  <li>Breeches(wool)</li>
-                  <li>Hand Wraps(leather)</li>
-                  <li>Worn Boots(leather)</li>
-                  <li>Amulet(Elder Sign)</li>
-                </p>
-              <h4>Pack:</h4>
-                <p>
-                  <li>Travel rations(~5 days)</li>
-                  <li>Camelback Pouch(suit refills)</li>
-                  <li>Non-magnifying Glass(implement)</li>
-                  <li>Glass Stiletto(100%)</li>
-                  <li>Sewing kit(80%)</li>
-                  <li>Lockpicks(45%)</li>
-                  <li>2x Tin vials(phosphorous)</li>
-                  <li>Everlight(89%)</li>
-                  <li>Rags</li>
-                  <li>1x Tin(cleaning solvent)</li>
-                  <li>Lux et Tenebrae(grimoire)</li>
-                </p>
-              <h4>Yatagan</h4>
-                <p>
-                  (Steel Cutlass)
-                </p>
-              <h4>Venwich Model 7</h4>
-                <p>
-                  (Breech-loading Carbine)
-                </p>
-              <h4>Cartridge Pouch</h4>
-                <p>
-                  (~40 cartridges)
-                </p>
-            </ul>
-          <h4>Spells</h4>
-            <ul>
-              <li>Ardent Flux:</li>
-                <p>Adept (Skill Level): A relatively simple theurgy, using phosphorous, somatic, and memetic components to create a blinding light.
-                </p>
-              <li>Forlorn Encystment:</li>
-                <p>
-                  Poor (Skill Level):A classic but difficult bit of hedge magic that imprisons a subject in the earth. Requires an effective implement(Non-magnifying Glass).
-                </p>
-              <li>True Sight:</li>
-                <p>
-                  "You will never be decieved by others, only by your self. You will see through all illusions and disguises, the true form of all things" he laughs, the madness visible in his eyes. "Even those that aren't there..."
-                </p>
-            </ul>
-          <p>
-            A gaunt but striking figure, Messer is a prototypical example of a Yeoman of the Japing Armigers.
-          </p>
+
+        <div className='bios' className='places-card' style = {cardStyle}>
+          <h1>Prominent Character Bios</h1>
+          <div className='row' style = {focusStyle}>
+            <div className='col-md-6'>
+              <h2>Ibram Messer</h2>
+              <img src = {IbramM} className='storyBoardImg'></img>
+              <p>
+                A gaunt but striking figure, Messer is a prototypical example of a Yeoman of the Japing Armigers.
+              </p>
+            </div>
+          </div>
+      
+              <div className='row' style = {focusStyle}>
+                <div className='col-md-6'>
+              
+                  <h4>Clothes:</h4>
+                    <p>
+                      <li>Armigers Vestment(chitin still suit)</li>
+                      <li>Blouse(wool)</li>
+                      <li>Breeches(wool)</li>
+                      <li>Hand Wraps(leather)</li>
+                      <li>Worn Boots(leather)</li>
+                      <li>Amulet(Elder Sign)</li>
+                    </p>
+                  </div>
+                </div>
+                  <h4>Pack:</h4>
+                    <p>
+                      <li>Travel rations(~5 days)</li>
+                      <li>Camelback Pouch(suit refills)</li>
+                      <li>Non-magnifying Glass(implement)</li>
+                      <li>Glass Stiletto(100%)</li>
+                      <li>Sewing kit(80%)</li>
+                      <li>Lockpicks(45%)</li>
+                      <li>2x Tin vials(phosphorous)</li>
+                      <li>Everlight(89%)</li>
+                      <li>Rags</li>
+                      <li>1x Tin(cleaning solvent)</li>
+                      <li>Lux et Tenebrae(grimoire)</li>
+                    </p>
+                  <h4>Yatagan</h4>
+                    <p>
+                      (Steel Cutlass)
+                    </p>
+                  <h4>Venwich Model 7</h4>
+                    <p>
+                      (Breech-loading Carbine)
+                    </p>
+                  <h4>Cartridge Pouch</h4>
+                    <p>
+                      (~40 cartridges)
+                    </p>
+              
+              <h4>Spells</h4>
+                <ul>
+                  <li>Ardent Flux:</li>
+                    <p>Adept (Skill Level): A relatively simple theurgy, using phosphorous, somatic, and memetic components to create a blinding light.
+                    </p>
+                  <li>Forlorn Encystment:</li>
+                    <p>
+                      Poor (Skill Level):A classic but difficult bit of hedge magic that imprisons a subject in the earth. Requires an effective implement(Non-magnifying Glass).
+                    </p>
+                  <li>True Sight:</li>
+                    <p>
+                      "You will never be decieved by others, only by your self. You will see through all illusions and disguises, the true form of all things" he laughs, the madness visible in his eyes. "Even those that aren't there..."
+                    </p>
+                </ul>
+              
+            
+          
         
           <h3>Melbourne</h3>
           <p>
@@ -214,6 +241,7 @@ function StoryBoard(){
             Your contact in Carcosa, Zur is the definition of eccentric. A mendicant and arcanist with the College of Dunwich, he is investigating odd reports from the foggy coastal colony. [He lives under a tent in the Rookery, a Dagonite slum.]
           </p>
         </div>
+
         <div className='prologue'>
           <h2>Prologue:</h2>
           <p>
