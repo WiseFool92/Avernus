@@ -11,7 +11,7 @@ function StoryBoard(){
     marginLeft: '1.25vw',
     marginRight: '1.25vw',
     padding: '5rem',
-    fontWeight: 'normal'
+    fontWeight: 'normal',
     // display: 'flex',
     // justifyContent: 'space-around',
     // backgroundColor: 'black',
