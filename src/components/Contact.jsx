@@ -9,11 +9,13 @@ function Contact() {
     padding: '5rem',
     fontWeight: 'normal',
     // display: 'flex',
-    justifyContent: 'space-around',
+    // justifyContent: 'space-around',
   }
   const contactNate = {
     height: '45vh',
     width: '15vw',
+    borderRadius: '5px',
+    boxShadow: '5px 5px 8px 5px rgba(0, 0, 0, 0.449)',
   }
   const contactAlign = {
     textAlign: 'center'
