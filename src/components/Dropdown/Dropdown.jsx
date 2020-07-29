@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-import { items } from './Items'
+import { items } from './Items';
+import onClickOutside from "react-onclickoutside";
 
 function Dropdown({ title, items = [], multiSelect = false }) {
   const [open, setOpen] = useState(false);
   const [selection, setSelection] = useState([]);
   const toggle = () => setOpen(!open);
+  Dropdown.handleClickOutside = () => setOpen(false);
 
   function handleOnClick(item) {
     if (!selection.some(current => current.id == item.id)) {
@@ -61,4 +63,8 @@ function Dropdown({ title, items = [], multiSelect = false }) {
   )
 }
 
-export default Dropdown;
+const clickOutsideConfig = {
+  handleClickOutside: () => Dropdown.handleClickOutside,
+};
+
+export default onClickOutside(Dropdown, clickOutsideConfig);
