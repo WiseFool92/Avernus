@@ -12,7 +12,8 @@ function Home() {
     // width: '100vh',
     borderBottom: '.2rem solid black',
     width: '98.9vw',
-    height: '98.9vh'
+    height: '98.9vh',
+
     // margin: '.1rem',
     // padding: '1rem',
     // borderRadius: '8px',

@@ -45,6 +45,29 @@ function StoryBoard(){
     width: '50vw'
   }
 
+  const horoStyle = {
+    marginLeft: '1.25vw',
+    marginRight: '1.25vw',
+    padding: '5rem',
+    fontWeight: 'normal',
+    padding: '1rem 0',
+    textAlign: 'center',
+    fontWeight: '900',
+    border: '1px solid rgb(12, 105, 12)',
+    display: 'flex',
+    padding: '1rem 0',
+    margin: '1rem 0',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-evenly',
+    color: '#0d3017',
+    borderRadius: '5px',
+    backgroundColor: 'rgba(255, 255, 255, 0.537)',
+    boxShadow: '5px 5px 8px 5px rgba(0, 0, 0, 0.449)',
+    height: '50vh',
+    width: '50vw'
+  }
+
   return (
     <>
       <div className='storyboard'>
@@ -133,20 +156,20 @@ function StoryBoard(){
         
         <div className='peoples' className='places-card' style = {cardStyle}>
           <h2>Peoples:</h2>
-          <div className='row' style = {focusStyle}>
-            <div className='col-md-6'>
+          <div className='row' style = {horoStyle}>
+            <div className='col-md-4'>
               <h3>Japing Armigers:</h3>
                 <p>To spend oneself in a worthy cause.</p>
               </div>
           </div>
-          <div className='row' style = {focusStyle}>
-            <div className='col-md-6'>
+          <div className='row' style = {horoStyle}>
+            <div className='col-md-4'>
               <h3>Kyr:</h3>
                 <p>Citizens of the Kyr Commonwealth.</p>
             </div>
           </div>
-          <div className='row' style = {focusStyle}>
-            <div className='col-md-6'>
+          <div className='row' style = {horoStyle}>
+            <div className='col-md-4'>
               <h3>Dagonites</h3>
                 <p>...</p>
             </div>
@@ -179,32 +202,42 @@ function StoryBoard(){
                     </p>
                   </div>
                 </div>
-                  <h4>Pack:</h4>
-                    <p>
-                      <li>Travel rations(~5 days)</li>
-                      <li>Camelback Pouch(suit refills)</li>
-                      <li>Non-magnifying Glass(implement)</li>
-                      <li>Glass Stiletto(100%)</li>
-                      <li>Sewing kit(80%)</li>
-                      <li>Lockpicks(45%)</li>
-                      <li>2x Tin vials(phosphorous)</li>
-                      <li>Everlight(89%)</li>
-                      <li>Rags</li>
-                      <li>1x Tin(cleaning solvent)</li>
-                      <li>Lux et Tenebrae(grimoire)</li>
-                    </p>
-                  <h4>Yatagan</h4>
-                    <p>
-                      (Steel Cutlass)
-                    </p>
-                  <h4>Venwich Model 7</h4>
-                    <p>
-                      (Breech-loading Carbine)
-                    </p>
-                  <h4>Cartridge Pouch</h4>
-                    <p>
-                      (~40 cartridges)
-                    </p>
+
+                <div className='row' style = {focusStyle}>
+                  <div className='col-md-6'>
+                    <h4>Pack:</h4>
+                      <p>
+                        <li>Travel rations(~5 days)</li>
+                        <li>Camelback Pouch(suit refills)</li>
+                        <li>Non-magnifying Glass(implement)</li>
+                        <li>Glass Stiletto(100%)</li>
+                        <li>Sewing kit(80%)</li>
+                        <li>Lockpicks(45%)</li>
+                        <li>2x Tin vials(phosphorous)</li>
+                        <li>Everlight(89%)</li>
+                        <li>Rags</li>
+                        <li>1x Tin(cleaning solvent)</li>
+                        <li>Lux et Tenebrae(grimoire)</li>
+                      </p>
+                  </div>
+                </div>
+
+                <div className='row' style = {focusStyle}>
+                  <div className='col-md-6'>
+                    <h4>Yatagan</h4>
+                      <p>
+                        (Steel Cutlass)
+                      </p>
+                    <h4>Venwich Model 7</h4>
+                      <p>
+                        (Breech-loading Carbine)
+                      </p>
+                    <h4>Cartridge Pouch</h4>
+                      <p>
+                        (~40 cartridges)
+                      </p>
+                  </div>
+                </div>
               
               <h4>Spells</h4>
                 <ul>
@@ -241,6 +274,7 @@ function StoryBoard(){
             Your contact in Carcosa, Zur is the definition of eccentric. A mendicant and arcanist with the College of Dunwich, he is investigating odd reports from the foggy coastal colony. [He lives under a tent in the Rookery, a Dagonite slum.]
           </p>
         </div>
+
 
         <div className='prologue'>
           <h2>Prologue:</h2>
