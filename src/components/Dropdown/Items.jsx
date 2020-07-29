@@ -3,17 +3,17 @@
 export const items = [
   {
     id: 1,
-    value: 'Pulp Fiction',
+    value: 'Regions',
     
   },
   {
     id: 2,
-    value: 'Fight Club',
+    value: 'Beastiary',
     
   },
   {
     id: 3,
-    value: 'LOTR',
+    value: 'Vocations',
     
   }
 ]

@@ -6,7 +6,7 @@
 // import Dropdown from 'react';
 import React, { Component } from 'react';
 import Dropdown from './Dropdown/Dropdown';
-import Items from './Dropdown/Items'
+import items from './Dropdown/Items'
 import './App.scss';
 
 function Encyclopedia() {
@@ -16,7 +16,7 @@ function Encyclopedia() {
     <div>
       <h1>Hi</h1>
       <div className='container'>
-        <Dropdown title='Select Option' items={items}/>
+        <Dropdown title='Explore' items={items} multiSelect />
       </div>
     </div>
       {/* <DropdownButton
