@@ -33,7 +33,7 @@
   /* width: 30vw; */
   border: 1px solid rgb(12, 105, 12);
   display: flex;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
   margin: 1rem 0;
   flex-direction: column;
   align-items: center;
@@ -63,4 +63,8 @@
   margin: 0rem;
   padding: 0rem;
   background-image: url('./Img/Dune.jpg');
+}
+
+.contactBackground {
+  background-image: url('./Img/contactSplash.jpg');
 }

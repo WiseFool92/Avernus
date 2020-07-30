@@ -9,7 +9,7 @@ function StoryBoard(){
   const cardStyle = {
     marginLeft: '1.25vw',
     marginRight: '1.25vw',
-    padding: '2rem',
+    // padding: '2rem',
     fontWeight: 'normal',
   }
 
