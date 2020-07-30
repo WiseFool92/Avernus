@@ -1,16 +1,18 @@
-.storyboard {
-  box-sizing: border-box;
-  text-align: center;
-  list-style-position: inside;
-  margin: 0rem;
-  padding: 0rem;
-  background-image: url('./Img/Dune.jpg');
-}
-
+/* NavBar */
 .co-logo {
   width: 10vh;
   height: 10vh;
   /* padding: 1rem; */
+}
+
+/* HomePage */
+.homeStyle {
+  background-image: url('./Img/FroHome.jpg');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .splash {
@@ -25,6 +27,8 @@
   float: right; */
 }
 
+
+/* StoryBoard */
 .places-card {
   /* width: 30vw; */
   border: 1px solid rgb(12, 105, 12);
@@ -50,4 +54,13 @@
   width: 35vw;
   height: 35vh;
   
+}
+
+.storyboard {
+  box-sizing: border-box;
+  text-align: center;
+  list-style-position: inside;
+  margin: 0rem;
+  padding: 0rem;
+  background-image: url('./Img/Dune.jpg');
 }

@@ -19,9 +19,9 @@ function Home() {
     // borderRadius: '8px',
 
   }
-
+  
   return (
-    <splash style = {homeStyle}>
+    <splash className='homeStyle' style = {homeStyle} >
       <div>
         <h1>Avernus</h1>
         <p>
