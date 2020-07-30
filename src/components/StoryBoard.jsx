@@ -26,9 +26,6 @@ function StoryBoard(){
   const focusStyle = {
     marginLeft: '1.25vw',
     marginRight: '1.25vw',
-    padding: '5rem',
-    fontWeight: 'normal',
-    padding: '1rem 0',
     textAlign: 'center',
     fontWeight: '900',
     border: '1px solid rgb(12, 105, 12)',
@@ -49,9 +46,6 @@ function StoryBoard(){
   const horoStyle = {
     marginLeft: '1.25vw',
     marginRight: '1.25vw',
-    padding: '5rem',
-    fontWeight: 'normal',
-    padding: '1rem 0',
     textAlign: 'center',
     fontWeight: '900',
     border: '1px solid rgb(12, 105, 12)',
@@ -131,7 +125,7 @@ function StoryBoard(){
             <div className='row' style = {focusStyle}>
               <div className='col-md-6'>
                 <h3>Avernus</h3>
-                <img src={caveTown} className='storyBoardImg'></img>
+                <img src={caveTown} className='storyBoardImg' alt='cave town'></img>
                 <p>An underground tombworld.</p>
               </div>
             </div>
@@ -235,7 +229,7 @@ function StoryBoard(){
           <div className='row' style = {focusStyle}>
             <div className='col-md-6'>
               <h2>Ibram Messer</h2>
-              <img src = {IbramM} className='storyBoardImg'></img>
+              <img src = {IbramM} className='storyBoardImg' alt='Ibram'></img>
               <p>
                 A gaunt but striking figure, Messer is a prototypical example of a Yeoman of the Japing Armigers.
               </p>

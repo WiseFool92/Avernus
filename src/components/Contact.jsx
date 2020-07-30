@@ -1,5 +1,6 @@
 import React from 'react';
 import LeMe from './Img/LeMe.jpg'
+import na from './Img/na.jpg'
 
 function Contact() {
 
@@ -8,11 +9,12 @@ function Contact() {
     marginRight: '1.25vw',
     padding: '5rem',
     fontWeight: 'normal',
-    // display: 'flex',
-    // justifyContent: 'space-around',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-around',
   }
   const contactNate = {
-    height: '45vh',
+    height: '50vh',
     width: '15vw',
     borderRadius: '5px',
     boxShadow: '5px 5px 8px 5px rgba(0, 0, 0, 0.449)',
@@ -21,22 +23,29 @@ function Contact() {
     textAlign: 'center'
   }
   const contactJames = {
-    float: 'right'
+    height: '50vh',
+    width: '15vw',
+    borderRadius: '5px',
+    boxShadow: '5px 5px 8px 5px rgba(0, 0, 0, 0.449)',
+    // float: 'right'
   }
 
   return (
     <>
-    <div style={contactStyle}>
       <h3 style={contactAlign}>Co-Founders</h3>
-    
-      <img src={LeMe} style={contactNate}></img>
-        <em><h4>Nathan Watkins-Hoagland</h4></em>
-          <p>watkins92@gmail.com</p>
-        <div style={contactJames}>
-          <em><h4>James Breslin</h4></em>
+      <div className='row' style={contactStyle}>
+        <div className='col-md-4'>
+          <img src={LeMe} style={contactNate} alt='nate' />
+          <em><h4>Nathan Watkins-Hoagland</h4></em>
+            <p>watkins92@gmail.com</p>
         </div>
-    
-    </div>
+        <div className='col-md-4'>
+          <div>
+            <img src={na} style={contactJames} alt='na' />
+            <em><h4>James Breslin</h4></em>
+          </div>
+        </div>
+      </div>
     </>
   )
 };

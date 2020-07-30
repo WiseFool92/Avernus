@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { items } from './Items';
+// import { items } from './Items';
 import onClickOutside from "react-onclickoutside";
 
 function Dropdown({ title, items = [], multiSelect = false }) {
@@ -9,7 +9,7 @@ function Dropdown({ title, items = [], multiSelect = false }) {
   Dropdown.handleClickOutside = () => setOpen(false);
 
   function handleOnClick(item) {
-    if (!selection.some(current => current.id == item.id)) {
+    if (!selection.some(current => current.id === item.id)) {
       if (!multiSelect) {
         setSelection([item]);
       } else if (multiSelect) {
@@ -18,14 +18,14 @@ function Dropdown({ title, items = [], multiSelect = false }) {
     } else {
       let selectionAfterRemoval = selection;
       selectionAfterRemoval = selectionAfterRemoval.filter(
-        current => current.id != item.id
+        current => current.id !== item.id
       );
       setSelection([...selectionAfterRemoval]);
     }
   }
 
   function isItemInSelection(item) {
-    if (selection.find(current => current.id == item.id)) {
+    if (selection.find(current => current.id === item.id)) {
       return true;
     }
     return false;
