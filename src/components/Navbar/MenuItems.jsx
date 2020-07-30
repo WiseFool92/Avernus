@@ -16,13 +16,13 @@ export const MenuItems = [
     cName: 'nav-links'
   },
   {
+    title: 'Forum',
+    url: '/Forum',
+    cName: 'nav-links'
+  },
+  {
     title: 'Contact',
     url: '/Contact',
     cName: 'nav-links'
   },
-  // {
-  //   title: 'Login',
-  //   url: '#',
-  //   cName: 'nav-links'
-  // },
 ]

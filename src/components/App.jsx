@@ -8,14 +8,12 @@ import Navbar from "./Navbar/Navbar";
 import Contact from './Contact';
 import Home from './Home';
 import Encyclopedia from './Encyclopedia';
+import Forum from './Forum/Forum';
 
 function App() {
   return (
     <Router>
       <Navbar />
-      {/* <Home /> */}
-      {/* <Header /> */}
-     
       <Switch>
         {/* <Route path ='/login'>
           <Login />
@@ -28,6 +26,9 @@ function App() {
         </Route>
         <Route path ='/encyclopedia'>
           <Encyclopedia />
+        </Route>
+        <Route path ='/forum'>
+          <Forum />
         </Route>
         <Route path ='/contact'>
           <Contact />
