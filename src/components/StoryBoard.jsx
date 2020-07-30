@@ -81,7 +81,7 @@ function StoryBoard(){
               It was not an inviting city, Carcosa. An antediluvian ruin hidden under the myconic timbers of a careless colony sprawl, this was not a destination favored by many. Only the most devout chose its' dark temple. The oily towers stood out oddly in the pale light of the Pendulum's swing, the spire of the Atrium Carceri peircing sharply into the cavern heights. Gazing across the wastes to this ancient tower Ibram wondered, not for the first, at the popularity of such a place along the Pilgrim's Path. He could tell by the gloom that there would be much work there. Carefully covering his mouth with the thin strip of red cloth clasped to his hood, he bent himself back into the wind. His mind wandered as his feet proceeded apace. Here, in the lonely desert stretch between the Reiksweald to the east and the Sabian Sea to the west, the Pilgrims Path was nothing more than a set of footprints. Far removed from the luxury of stone that detailed the length and breadth of the Chitin Road, every step Ibram took here sank deep into the sand.
             </p>
             <p>
-              <em>"And to think he dreamed of paradise"</em>, Ibram idly mused remembering the endless hope with which Amis had spoken of the coast. <em>"It's as gloomy as everything else in this forsaken cave."</em>
+              <em>"And to think he dreamed of paradise"</em>, Ibram idly mused remembering the endless hope with which Amis had spoken of the coast. <em>"It's as gloomy as everything else in this forsaken cave." </em>
               A cry rang out ahead and Ibram risked the stinging wind to raise his eyes again. There was movement along the line ahead of him, some clearly panic. It was quickly apparent what had disturbed the stoic procession; far to the east was a small billowing cloud of dust approaching at a remarkable pace among the dunes. Ibram knew instantly that this was danger. The Arrowtongue, an apex predator known by legend. The speed alone was a clue, but at the tip of the cloud he could spot the bright crimson mark of the beasts grotesque head. Ahead he saw the careful movement of a dozen guards and two other Armigers as they warily spread out towards the approaching cloud. Sighing, he moved to join them. He touched the useless blade at his side, its presence a comfort, then unslung the battered carbine from his shoulder. The violence would cost them dearly; this was no place to fight such a thing. <em>"And with the city in sight"</em>, he thought.
             </p>
             <p>
@@ -205,21 +205,17 @@ function StoryBoard(){
         <div className='peoples' className='places-card' style = {cardStyle}>
           <h2>Peoples:</h2>
           <div className='row' style = {horoStyle}>
-            <div className='col-md-4'>
+            <div className='col-md-4' style={focusStyle}>
               <h3>Japing Armigers:</h3>
                 <p>To spend oneself in a worthy cause.</p>
               </div>
-          </div>
-          <div className='row' style = {horoStyle}>
-            <div className='col-md-4'>
+            <div className='col-md-4'style={focusStyle}>
               <h3>Kyr:</h3>
                 <p>Citizens of the Kyr Commonwealth.</p>
             </div>
-          </div>
-          <div className='row' style = {horoStyle}>
-            <div className='col-md-4'>
+            <div className='col-md-4'style={focusStyle}>
               <h3>Dagonites</h3>
-                <p>...</p>
+                <p>...A people whom met misfortune head on & lost. Whom ever is left, can be found living in the slums of Carcosa</p>
             </div>
           </div>
         </div>
