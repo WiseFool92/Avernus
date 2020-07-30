@@ -215,7 +215,7 @@ function StoryBoard(){
             </div>
             <div className='col-md-4'style={focusStyle}>
               <h3>Dagonites</h3>
-                <p>...A people whom met misfortune head on & lost. Whom ever is left, can be found living in the slums of Carcosa</p>
+                <p>...A people whom met misfortune head on & lost. Everyone left can be found living in the slums of Carcosa</p>
             </div>
           </div>
         </div>
