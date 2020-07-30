@@ -7,20 +7,10 @@ import IbramM from './Img/IbramM.jpg';
 
 function StoryBoard(){
   const cardStyle = {
-    // width: '95vw',
     marginLeft: '1.25vw',
     marginRight: '1.25vw',
-    padding: '5rem',
+    padding: '2rem',
     fontWeight: 'normal',
-    // display: 'flex',
-    // justifyContent: 'space-around',
-    // backgroundColor: 'black',
-    // fontSize: '30px',
-    // color: 'crimson',
-    // width: '100vh',
-    // borderBottom: '.2rem solid black',
-    // margin: '.1rem',
-    // padding: '1rem'
   }
 
   const focusStyle = {
