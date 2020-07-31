@@ -20,7 +20,7 @@ function Contact() {
     boxShadow: '5px 5px 8px 5px rgba(0, 0, 0, 0.449)',
   }
   const contactAlign = {
-    textAlign: 'center'
+    textAlign: 'center',
   }
   const contactJames = {
     height: '50vh',
