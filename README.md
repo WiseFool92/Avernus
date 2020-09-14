@@ -257,16 +257,28 @@ Avernus
 
 To Do {
 
+  Refactor / File Structure {
+    App.css - Consider refacting everything into functional components
+    &
+    App.scss - To Dropdown folder
+  }
+
+  Home {
+    Add padding to the left handside
+    Make the home route the default starting page
+  }
+
 	Navbar {
-		Logo Clips with Home Btn
+		Logo Clips with Home Btn at tight resolutions
 		Make the Logo a clickable route - remove home btn?
 	}
 	
 	Login {
 		Add a Login route with a page display that checks for validation
+    Only logged in Users can post/comment to the forum & vote on the storyboards
+    However everything is viewable without a login
 	}
 
-	
 	Forum {
 		Follow a Forum Creation tutorial
 	}
