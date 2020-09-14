@@ -292,8 +292,13 @@ To Do {
 	StoryBoard {
 		Remove Top Border - Change margin to padding?
 		Remove Bot Border - Change margin to padding?
-		Get a New sand dune img for the background for the Carcosa story
-		Set each story text block with it's own background imgs
+
+    Options {
+      Use paint to crop the top of the of sand img - then use a div to wrap the sand dune img around the first story plus sotry voting?
+		  Get a New sand dune img for the background for the Carcosa story
+		  Set each story text block with it's own background imgs
+    }
+
 		Change the background to a solid color - GreyScale?
 		Implement a Storyboard voting system - (Use the Encyclopedia Select Box Dropdown?)
 	}
