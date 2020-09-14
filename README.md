@@ -250,3 +250,40 @@ Peoples:
 Realms:
   World Location Data & Geographical Maps
 
+
+# Avernus - Future Development
+
+Avernus
+
+To Do {
+
+	Navbar {
+		Logo Clips with Home Btn
+		Make the Logo a clickable route - remove home btn?
+	}
+	
+	Login {
+		Add a Login route with a page display that checks for validation
+	}
+
+	
+	Forum {
+		Follow a Forum Creation tutorial
+	}
+
+
+	Contact {
+		Change Blurb Text to white
+		Remove Top Border - Change margin to padding?
+	}
+
+	StoryBoard {
+		Remove Top Border - Change margin to padding?
+		Remove Bot Border - Change margin to padding?
+		Get a New sand dune img for the background for the Carcosa story
+		Set each story text block with it's own background imgs
+		Change the background to a solid color - GreyScale?
+		Implement a Storyboard voting system - (Use the Encyclopedia Select Box Dropdown?)
+	}
+
+}
