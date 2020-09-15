@@ -48,7 +48,7 @@ function Contact() {
   return (
     <>
       <div style={background}>
-        <h1 style={contactTitle}>Co-Founders</h1>
+        <h1 style={contactTitle}>Founders</h1>
         <div className='row' style={contactStyle}>
           <div className='col-md-4'>
             <img src={LeMe} style={contactNate} alt='nate' />
