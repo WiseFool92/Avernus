@@ -9,7 +9,7 @@ function Forum() {
   return (
     <>
       <div>
-        <h1 style={forumStyle}>This is where the Forum will be</h1>
+        <h1 style={forumStyle}>Forum Under Development</h1>
       </div>
     </>
   )
