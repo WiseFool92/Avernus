@@ -20,27 +20,24 @@ function Contact() {
     borderRadius: '5px',
     boxShadow: '5px 5px 8px 5px rgba(0, 0, 0, 0.449)',
   }
-  const contactAlign = {
+  const contactTitle = {
     textAlign: 'center',
     padding: '3rem',
-    marginTop: '0rem'
+    marginTop: '0rem',
+    color: 'ivory',
   }
   const contactJames = {
     height: '55vh',
     width: '15vw',
     borderRadius: '5px',
     boxShadow: '5px 5px 8px 5px rgba(0, 0, 0, 0.449)',
-    // float: 'right'
   }
   
   const background = {
     backgroundImage: `url(${contactSplash})`,
     height: '100%',
     height: '100%',
-    // height: '100vh',
-    // height: '100vw',
     // backgroundSize: 'cover',
-    // marginTop: '0rem'
   }
   
   const textStyle = {
@@ -51,7 +48,7 @@ function Contact() {
   return (
     <>
       <div style={background}>
-        <h1 style={contactAlign}>Co-Founders</h1>
+        <h1 style={contactTitle}>Co-Founders</h1>
         <div className='row' style={contactStyle}>
           <div className='col-md-4'>
             <img src={LeMe} style={contactNate} alt='nate' />
