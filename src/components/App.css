@@ -60,11 +60,10 @@
   box-sizing: border-box;
   text-align: center;
   list-style-position: inside;
-  margin: 0rem;
+  margin-top: 0rem;
   padding: 0rem;
-  background-image: url('./Img/Dune.jpg');
-}
-
-.contactBackground {
-  background-image: url('./Img/contactSplash.jpg');
+  /* background-color: silver, */
+  /* background-image: url('./Img/DuneV2.jpg'); */
+  background-image: url('./Img/sand.jpg');
+  /* box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.449); */
 }

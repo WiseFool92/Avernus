@@ -259,18 +259,14 @@ To Do {
 
   Refactor / File Structure {
     App.css - Consider refacting everything into functional components
-    &
-    App.scss - To Dropdown folder
   }
 
   Home {
     Add padding to the left handside
-    Make the home route the default starting page
   }
 
 	Navbar {
-		Logo Clips with Home Btn at tight resolutions
-		Make the Logo a clickable route - remove home btn?
+		Logo Clips with Home Btn at tight resolutions if another route is added
 	}
 	
 	Login {
@@ -284,14 +280,7 @@ To Do {
 	}
 
 
-	Contact {
-		Change Blurb Text to white
-		Remove Top Border - Change margin to padding?
-	}
-
 	StoryBoard {
-		Remove Top Border - Change margin to padding?
-		Remove Bot Border - Change margin to padding?
 
     Options {
       Use paint to crop the top of the of sand img - then use a div to wrap the sand dune img around the first story plus sotry voting?
