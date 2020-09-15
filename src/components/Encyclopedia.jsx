@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import Dropdown from './Dropdown/Dropdown';
 import items from './Dropdown/Items'
-import './App.scss';
+import './Dropdown/App.scss'
 
 function Encyclopedia() {
 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { MenuItems } from './MenuItems'
 import './Navbar.css'
 import { Button } from './Button'
@@ -15,8 +16,12 @@ class Navbar extends Component {
   render() {
     return (
       <nav className='NavbarItems'>
-        <img src={logo} alt='logo' className='co-logo'></img>
-        <h1 className='navbar-logo'>IAB</h1>
+        <Link to='/'>
+          <img src={logo} alt='logo' className='co-logo'></img>
+        </Link>
+        <Link to='/'>
+          <h1 className='navbar-logo'>IAB</h1>
+        </Link>
         <div className='menu-icon' onClick={this.handleClick}>
           <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
         </div>
