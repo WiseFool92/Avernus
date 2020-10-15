@@ -15,11 +15,11 @@ export const MenuItems = [
     url: '/Forum',
     cName: 'nav-links'
   },
-  {
-    title: 'Contact',
-    url: '/Contact',
-    cName: 'nav-links'
-  },
+  // {
+  //   title: 'Contact',
+  //   url: '/Contact',
+  //   cName: 'nav-links'
+  // },
   // {
   //   title: 'Login',
   //   url: '/Login',
