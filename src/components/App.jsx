@@ -9,6 +9,7 @@ import Contact from './Contact';
 import Home from './Home';
 import Encyclopedia from './Encyclopedia';
 import Forum from './Forum/Forum';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Home />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }
