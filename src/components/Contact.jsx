@@ -36,7 +36,6 @@ function Contact() {
   const background = {
     backgroundImage: `url(${contactSplash})`,
     height: '100%',
-    height: '100%',
     // backgroundSize: 'cover',
   }
   
