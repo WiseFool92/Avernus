@@ -1,13 +1,14 @@
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import './App.css';
 import React from 'react';
-// import Login from './Login';
-import StoryBoard from './StoryBoard';
 import Navbar from "./Navbar/Navbar";
-import Contact from './Contact';
 import Home from './Home';
+import StoryBoard from './StoryBoard';
 import Encyclopedia from './Encyclopedia';
 import Forum from './Forum/Forum';
+import Contact from './Contact';
+import Login from './Login/Login';
+import LoginForm from './Login/LoginForm';
 import Footer from './Footer';
 
 function App() {
@@ -30,9 +31,12 @@ function App() {
         <Route path ='/contact'>
           <Contact />
         </Route>
-        {/* <Route path ='/login'>
+        <Route path ='/login'>
           <Login />
-        </Route> */}
+        </Route>
+        <Route path ='/loginform'>
+          <LoginForm />
+        </Route>
         <Route path ='/'>
           <Home />
         </Route>
