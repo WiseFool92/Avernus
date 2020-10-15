@@ -120,13 +120,13 @@ class Login extends Component {
   render() {
     const { formErrors } = this.state;
 
-    // var visible;
-    // if (this.state.submissionResponseText !== '') {
-    //   visible = 'inline-block'  
-    // }
-    // else {
-    //   visible = 'none'  
-    // }
+    var visible;
+    if (this.state.submissionResponseText !== '') {
+      visible = 'inline-block'  
+    }
+    else {
+      visible = 'none'  
+    }
 
     // const submissionResponseDiv = {
     //   position: 'relative',

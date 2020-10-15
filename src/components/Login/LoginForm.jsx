@@ -22,18 +22,16 @@ const formValid = ({ formErrors, ...rest }) => {
   return valid;
 };
 
-
-
-const subBtn = {
-  backgroundColor: '#519e8a',
-  color: '#fff',
-  border: '2px solid #fff',
-  width: '25%',
-  margin: 'auto',
-  padding: '8px 0px',
-  fontSize: '1rem',
-  letterSpacing: '1px',
-}
+// const subBtn = {
+//   backgroundColor: '#519e8a',
+//   color: '#fff',
+//   border: '2px solid #fff',
+//   width: '25%',
+//   margin: 'auto',
+//   padding: '8px 0px',
+//   fontSize: '1rem',
+//   letterSpacing: '1px',
+// }
 
 class Registration extends Component {
   constructor(props) {
@@ -44,7 +42,7 @@ class Registration extends Component {
       email: null,
       password: null,
       passwordCheck: null,
-      submissionResponseText: "",
+      // submissionResponseText: "",
       formErrors: {
         firstName: '',
         lastName: '',
@@ -55,9 +53,9 @@ class Registration extends Component {
     };
   }
 
-  postRequest(requestOptions){
-    return fetch('/submit_registration', requestOptions).then(token => {return token})
-  }
+  // postRequest(requestOptions){
+  //   return fetch('/submit_registration', requestOptions).then(token => {return token})
+  // }
 
   handleSubmit = e => {
     e.preventDefault();
@@ -78,29 +76,29 @@ class Registration extends Component {
           Password: ${this.state.password}
         `);
         
-        const requestOptions = {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({newUser})
-        };
+        // const requestOptions = {
+        //   method: 'POST',
+        //   headers: { 'Content-Type': 'application/json' },
+        //   body: JSON.stringify({newUser})
+        // };
         
-        const userToken = this.postRequest(requestOptions)
+        // const userToken = this.postRequest(requestOptions)
 
-        // RESPONSE FROM SERVER GOES HERE
-        userToken.then(function(result){
-          switch(result.statusText) {
-            case "OK":
-              this.setState({submissionResponseText: "Registration Successful!\nRedirecting to Login."})
-              setTimeout(window.location.href="/login", 2000);
-              break;
-            case "error":
-              this.setState({submissionResponseText: "An error occured during database registration. That email may already exist."})
-              break;
-            default:
-              this.setState({submissionResponseText: "FORM INVALID - Catastrophic meltdown, run for your lives!"})
-              // console.error('FORM INVALID - DISPLAY ERROR MESSAGE');
-          }
-        })
+        // // RESPONSE FROM SERVER GOES HERE
+        // userToken.then(function(result){
+        //   switch(result.statusText) {
+        //     case "OK":
+        //       this.setState({submissionResponseText: "Registration Successful!\nRedirecting to Login."})
+        //       setTimeout(window.location.href="/login", 2000);
+        //       break;
+        //     case "error":
+        //       this.setState({submissionResponseText: "An error occured during database registration. That email may already exist."})
+        //       break;
+        //     default:
+        //       this.setState({submissionResponseText: "FORM INVALID - Catastrophic meltdown, run for your lives!"})
+        //       // console.error('FORM INVALID - DISPLAY ERROR MESSAGE');
+        //   }
+        // })
     }
   };
 
@@ -142,33 +140,33 @@ class Registration extends Component {
   render() {
     const { formErrors } = this.state;
     
-    var visible;
-    if (this.state.submissionResponseText !== '') {
-      visible = 'inline-block'  
-    }
-    else {
-      visible = 'none'  
-    }
-    const submissionResponseDiv = {
-      position: 'relative',
-      width: '100%',
-      height: 'fitContent',
-      textAlign: 'center',
-      display: visible,
-      color: 'ivory',
-      padding: '1rem',
-      fontWeight: 'lighter',
-      fontFamily: '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif'
-    }
+    // var visible;
+    // if (this.state.submissionResponseText !== '') {
+    //   visible = 'inline-block'  
+    // }
+    // else {
+    //   visible = 'none'  
+    // }
+    // const submissionResponseDiv = {
+    //   position: 'relative',
+    //   width: '100%',
+    //   height: 'fitContent',
+    //   textAlign: 'center',
+    //   display: visible,
+    //   color: 'ivory',
+    //   padding: '1rem',
+    //   fontWeight: 'lighter',
+    //   fontFamily: '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif'
+    // }
     
   return (
     <>
     <div className='regWrapper'>
       <div className='form-regWrapper'>
-        <div style={submissionResponseDiv} id="SubmissionResponseDiv">
+        {/* <div style={submissionResponseDiv} id="SubmissionResponseDiv">
           <p>{this.state.submissionResponseText}</p>
           <button style={subBtn} onClick={() => this.setState({submissionResponseText: ''})}>Ok</button>
-        </div>
+        </div> */}
         <h1 className='regTitle'>Create Account</h1>
         <form className='registration-form' onSubmit={this.handleSubmit} noValidate>
           <div className='firstName'>
