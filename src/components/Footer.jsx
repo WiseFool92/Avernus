@@ -1,20 +1,35 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import background from './Img/navBackImg3.jpg';
 
 const footer = {
-
+  display: 'flex',
+  position: 'absolute',
+  width: '100%',
+  // background: '#959595',
+  // backgroundImage: url(/Img/navBackImg3.jpg),
+  backgroundImage: `url(${background})`,
+  flexDirection: 'column',
+  alignItems: 'center',
+  textAlign: 'center',
+  justifyContent: 'center',
+  height: '200px',
+  padding: '1rem'
 };
 
 const fabLinkStyle = {
-
+  color: '#FFFFFF',
+  marginLeft: '1vw',
+  marginRight: '1vw'
 };
 
 const links = {
-
+  color: '#FFFFFF',
 };
 
 const footerLinks = {
-
+  float: 'left',
+  color: '#fff',
 };
 
 export default function Footer() {
@@ -36,7 +51,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <p style={{background: '#959595', marginBottom: '0rem', marginTop: '-2rem'}}>
+            <p style={{color: '#FFFFFF', marginBottom: '0rem', marginTop: '-2rem'}}>
               &copy; 2020-{new Date().getFullYear()}, Avernus
               <br/>
               All Right Reserved | <Link to='/terms'><span style={links}>Terms of Service</span></Link> | <Link to='/privacypolicy'><span style={links}>Privacy Policy</span></Link>
