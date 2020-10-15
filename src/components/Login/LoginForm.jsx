@@ -134,7 +134,7 @@ class Registration extends Component {
     }
 
     // USEFUL TOOL FOR DIAGNOSING FORM INPUT ERRORS
-    // this.setState({formErrors, [name]: value }, () => console.log(this.state));
+    this.setState({formErrors, [name]: value }, () => console.log(this.state));
   };
 
   render() {
