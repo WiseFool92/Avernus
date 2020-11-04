@@ -1,5 +1,4 @@
-// import React, { useState } from 'react';
-import React, { Component } from 'react';
+import React from 'react';
 import Dropdown from './Dropdown/Dropdown';
 import items from './Dropdown/Items';
 import './Dropdown/App.scss';
@@ -7,11 +6,11 @@ import westernGallery from './Img/westernGallery.jpg'
 
 function Encyclopedia() {
 
-  const align = {
-    textAlign: 'center',
-    padding: '1rem',
-    margin: '1rem',
-  }
+  // const align = {
+  //   textAlign: 'center',
+  //   padding: '1rem',
+  //   margin: '1rem',
+  // }
 
   const westernGalleryStyles = {
     borderRadius: '5px',
@@ -31,7 +30,7 @@ function Encyclopedia() {
   return (
     <>
     <div>
-      <h1 style={align}></h1>
+      {/* <h1 style={align}></h1> */}
       <div className='container'>
         <Dropdown title='Explore' items={items} multiSelect />
       </div>
